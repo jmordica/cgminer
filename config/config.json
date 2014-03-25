@@ -1,0 +1,17 @@
+{
+    "minerName": "GM00",
+    "emailEnabled": "false",
+    "maxGetCgminerPidAttempts": 10,
+    "monitorStartTimeoutSeconds": 15,
+    "monitorIntervalSeconds": 2,
+    "apiResponseThresholdSeconds": 20,
+    "numGPUs": 0,
+    "email": {
+        "user": "email_user",
+        "pass": "pass_user",
+        "from": "from_user",
+        "to": "to_user",
+        "subject": "subject",
+        "template": "email-template.html"
+    }
+}
