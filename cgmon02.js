@@ -59,7 +59,7 @@ config = _.defaults(config, {
     "minerName": "my miner",              // identifying string used in emails and logs
     "processName": "cgminer",             // name cgmon uses to find process ID
     "startWaitSeconds": 5,                // time to wait for miner process to start before continuing
-    "cmd": "/opt/start_screen/start_screen02.sh",           // process cgmon spawns to start cgminer
+    "cmd": "/opt/cgminer/start_screen/start_screen02.sh",           // process cgmon spawns to start cgminer
     "args": [],                           // process arguments if any
     "apiHost": "127.0.0.1",               // miner API host
     "apiPort": "4302",                    // miner API port
@@ -165,25 +165,25 @@ function startMonitoring() {
     startMonitorTimeoutHdl = setTimeout(function () {
         rebootMachine("monitoring didn't start before monitorStartTimeoutSeconds");
     }, config.monitorStartTimeoutSeconds * 1000);
-    getCgminerPid()
-    .fail(function(status) {
-        if (status === "cgminer start") {
-            clearTimeout(startMonitorTimeoutHdl);
-            log.info(PRE, "could not get cgminer PID; attempted start/restart");
+//    getCgminerPid()
+//    .fail(function(status) {
+//        if (status === "cgminer start") {
+//            clearTimeout(startMonitorTimeoutHdl);
+//            log.info(PRE, "could not get cgminer PID; attempted start/restart");
             // cgminer has been started/restarted; try monitoring it again
-            startMonitoring();
-            return;
-        }
-        log.error(PRE, "could not get cgminer PID; exiting", status);
-    })
-    .done(function(pid) {
-        clearTimeout(startMonitorTimeoutHdl);
-        log.info(PRE, "got cgminer PID; will start monitoring", pid);
-        cgminerPID = pid;
-        email("starting monitor", true);
+//            startMonitoring();
+//            return;
+//        }
+//        log.error(PRE, "could not get cgminer PID; exiting", status);
+//    });
+//    .done(function(pid) {
+//        clearTimeout(startMonitorTimeoutHdl);
+//        log.info(PRE, "got cgminer PID; will start monitoring", pid);
+//        cgminerPID = pid;
+//        email("starting monitor", true);
         // set interval at which monitoring cycles happen
-        monitorIntervalHdl = setInterval(monitor, config.monitorIntervalSeconds * 1000);
-    });
+//        monitorIntervalHdl = setInterval(monitor, config.monitorIntervalSeconds * 1000);
+//    });
 }
 
 // stop monitoring cgminer

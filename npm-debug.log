@@ -1,0 +1,1274 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink /usr/bin/node
+5 warn package.json node-cgmon@ No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/opt/cgminer',
+7 verbose install   [ 'coffee-script',
+7 verbose install     'cgminer',
+7 verbose install     'easy-config',
+7 verbose install     'gmail-sender',
+7 verbose install     'running',
+7 verbose install     'npmlog',
+7 verbose install     'jsdom',
+7 verbose install     'pidof',
+7 verbose install     'lodash',
+7 verbose install     'reboot',
+7 verbose install     'logrotate-stream',
+7 verbose install     'jjg-ping' ] ]
+8 info preinstall node-cgmon@
+9 warn package.json running@0.0.1 No repository field.
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'jsdom@0.8.10', null ]
+12 verbose cache add name=undefined spec="jsdom@0.8.10" args=["jsdom@0.8.10",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'jsdom@0.8.10',
+13 verbose parsed url   path: 'jsdom@0.8.10',
+13 verbose parsed url   href: 'jsdom@0.8.10' }
+14 verbose cache add name="jsdom" spec="0.8.10" args=["jsdom","0.8.10"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '0.8.10',
+15 verbose parsed url   path: '0.8.10',
+15 verbose parsed url   href: '0.8.10' }
+16 verbose addNamed [ 'jsdom', '0.8.10' ]
+17 verbose addNamed [ '0.8.10', '0.8.10' ]
+18 verbose already installed skipping lodash@2.4.1 /opt/cgminer
+19 verbose already installed skipping pidof@1.0.2 /opt/cgminer
+20 silly lockFile 5b7c1af8-jsdom-0-8-10 jsdom@0.8.10
+21 verbose lock jsdom@0.8.10 /root/.npm/5b7c1af8-jsdom-0-8-10.lock
+22 verbose cache add [ 'reboot@0.0.1', null ]
+23 verbose cache add name=undefined spec="reboot@0.0.1" args=["reboot@0.0.1",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'reboot@0.0.1',
+24 verbose parsed url   path: 'reboot@0.0.1',
+24 verbose parsed url   href: 'reboot@0.0.1' }
+25 verbose cache add name="reboot" spec="0.0.1" args=["reboot","0.0.1"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '0.0.1',
+26 verbose parsed url   path: '0.0.1',
+26 verbose parsed url   href: '0.0.1' }
+27 verbose addNamed [ 'reboot', '0.0.1' ]
+28 verbose addNamed [ '0.0.1', '0.0.1' ]
+29 silly lockFile d9e813fa-reboot-0-0-1 reboot@0.0.1
+30 verbose lock reboot@0.0.1 /root/.npm/d9e813fa-reboot-0-0-1.lock
+31 verbose already installed skipping jjg-ping@1.0.0 /opt/cgminer
+32 verbose already installed skipping logrotate-stream@0.2.3 /opt/cgminer
+33 verbose url raw jsdom/0.8.10
+34 verbose url resolving [ 'https://registry.npmjs.org/', './jsdom/0.8.10' ]
+35 verbose url resolved https://registry.npmjs.org/jsdom/0.8.10
+36 info trying registry request attempt 1 at 16:10:34
+37 verbose etag "2GABSQXXV20WJWVN2972EQN4P"
+38 http GET https://registry.npmjs.org/jsdom/0.8.10
+39 verbose already installed skipping cgminer@0.1.0 /opt/cgminer
+40 verbose already installed skipping coffee-script@~1.6.3 /opt/cgminer
+41 verbose already installed skipping gmail-sender@0.1.2 /opt/cgminer
+42 verbose already installed skipping easy-config@0.2.3 /opt/cgminer
+43 verbose already installed skipping running@0.0.1 /opt/cgminer
+44 verbose already installed skipping npmlog@0.0.6 /opt/cgminer
+45 verbose url raw reboot/0.0.1
+46 verbose url resolving [ 'https://registry.npmjs.org/', './reboot/0.0.1' ]
+47 verbose url resolved https://registry.npmjs.org/reboot/0.0.1
+48 info trying registry request attempt 1 at 16:10:34
+49 verbose etag "BVXBEPEOD2XOJ2LJIYZ2CWZJK"
+50 http GET https://registry.npmjs.org/reboot/0.0.1
+51 http 304 https://registry.npmjs.org/reboot/0.0.1
+52 silly registry.get cb [ 304,
+52 silly registry.get   { date: 'Tue, 25 Mar 2014 20:10:35 GMT',
+52 silly registry.get     server: 'Apache',
+52 silly registry.get     via: '1.1 varnish',
+52 silly registry.get     'last-modified': 'Tue, 25 Mar 2014 20:10:35 GMT',
+52 silly registry.get     'cache-control': 'max-age=1',
+52 silly registry.get     etag: '"BVXBEPEOD2XOJ2LJIYZ2CWZJK"',
+52 silly registry.get     'x-served-by': 'cache-v42-ASH',
+52 silly registry.get     'x-cache': 'MISS',
+52 silly registry.get     'x-cache-hits': '0',
+52 silly registry.get     'x-timer': 'S1395778235.445611477,VS0,VE102',
+52 silly registry.get     vary: 'Accept',
+52 silly registry.get     'content-length': '0',
+52 silly registry.get     'keep-alive': 'timeout=10, max=50',
+52 silly registry.get     connection: 'Keep-Alive' } ]
+53 verbose etag reboot/0.0.1 from cache
+54 silly lockFile d9e813fa-reboot-0-0-1 reboot@0.0.1
+55 silly lockFile d9e813fa-reboot-0-0-1 reboot@0.0.1
+56 http 304 https://registry.npmjs.org/jsdom/0.8.10
+57 silly registry.get cb [ 304,
+57 silly registry.get   { date: 'Tue, 25 Mar 2014 20:10:36 GMT',
+57 silly registry.get     server: 'Apache',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     'last-modified': 'Tue, 25 Mar 2014 20:10:36 GMT',
+57 silly registry.get     'cache-control': 'max-age=1',
+57 silly registry.get     etag: '"2GABSQXXV20WJWVN2972EQN4P"',
+57 silly registry.get     'x-served-by': 'cache-v37-ASH',
+57 silly registry.get     'x-cache': 'MISS',
+57 silly registry.get     'x-cache-hits': '0',
+57 silly registry.get     'x-timer': 'S1395778236.244810104,VS0,VE124',
+57 silly registry.get     vary: 'Accept',
+57 silly registry.get     'content-length': '0',
+57 silly registry.get     'keep-alive': 'timeout=10, max=50',
+57 silly registry.get     connection: 'Keep-Alive' } ]
+58 verbose etag jsdom/0.8.10 from cache
+59 silly lockFile 5b7c1af8-jsdom-0-8-10 jsdom@0.8.10
+60 silly lockFile 5b7c1af8-jsdom-0-8-10 jsdom@0.8.10
+61 silly resolved [ { name: 'reboot',
+61 silly resolved     description: 'Quickly reboot Linux from node.js without fork()ing /sbin/shutdown or going thru initscripts',
+61 silly resolved     homepage: 'http://egorfine.github.com/node-reboot',
+61 silly resolved     bugs: { url: 'http://github.com/egorFiNE/node-reboot/issues' },
+61 silly resolved     version: '0.0.1',
+61 silly resolved     author: { name: 'Egor Egorov' },
+61 silly resolved     repository:
+61 silly resolved      { type: 'git',
+61 silly resolved        url: 'http://github.com/egorfine/node-reboot.git' },
+61 silly resolved     main: './index',
+61 silly resolved     scripts: { install: 'node-gyp rebuild' },
+61 silly resolved     gypfile: true,
+61 silly resolved     readme: '# node-reboot\n\nReboot Linux kernel immediately from node without calling `/sbin/shutdown` or going thru initscripts. \n\n## Why? \n\nI\'m running a cluster of Linux servers which boot readonly and perform a memory-intensive computations. node-reboot is a part of a watchdog application, which in case of emergencies much reboot the server immediately without `fork()`ing another process or going thru upstart/initscripts.\n\n## Synopsis\n\nCall `sync()` and then reboot: \n\n```javascript\nrequire(\'reboot\').reboot();\n```\n\nReboot without `sync()`ing: \n\n```javascript\nrequire(\'reboot\').rebootImmediately();\n```\n\nThe function should never return. If it does, it means node has insufficient permissions. \n\n## Permissions\n\nIf you are to run node process under non-superuser, be sure to give node permissions to reboot the system: \n\n```\nsudo setcap CAP_SYS_BOOT=+ep /usr/local/bin/node\n```\n\nSee `man capabilities` for details.\n\n\n## Installation\n\n```\nnpm install reboot\n```\n\nor\n\n```\nnpm install .\n```\n\n\n## License\n\nSee LICENSE file. Basically, it\'s a kind of "do-whatever-you-want-for-free" license.\n\n\n',
+61 silly resolved     readmeFilename: 'README.md',
+61 silly resolved     _id: 'reboot@0.0.1',
+61 silly resolved     _from: 'reboot@0.0.1' },
+61 silly resolved   { name: 'jsdom',
+61 silly resolved     version: '0.8.10',
+61 silly resolved     description: 'A JavaScript implementation of the W3C DOM',
+61 silly resolved     keywords: [ 'dom', 'w3c', 'html' ],
+61 silly resolved     maintainers: [ [Object], [Object] ],
+61 silly resolved     contributors:
+61 silly resolved      [ [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object],
+61 silly resolved        [Object] ],
+61 silly resolved     bugs:
+61 silly resolved      { url: 'http://github.com/tmpvar/jsdom/issues',
+61 silly resolved        email: 'tmpvar@gmail.com' },
+61 silly resolved     license:
+61 silly resolved      { type: 'MIT',
+61 silly resolved        url: 'http://github.com/tmpvar/jsdom/blob/master/LICENSE.txt' },
+61 silly resolved     repository: { type: 'git', url: 'git://github.com/tmpvar/jsdom.git' },
+61 silly resolved     implements: [ 'http://www.w3.org/TR/REC-DOM-Level-1' ],
+61 silly resolved     dependencies:
+61 silly resolved      { htmlparser2: '>= 3.1.5 <4',
+61 silly resolved        nwmatcher: '~1.3.1',
+61 silly resolved        request: '2.x',
+61 silly resolved        xmlhttprequest: '>=1.5.0',
+61 silly resolved        cssom: '~0.3.0',
+61 silly resolved        cssstyle: '~0.2.6',
+61 silly resolved        contextify: '~0.1.5' },
+61 silly resolved     devDependencies: { nodeunit: '~0.8.0', optimist: '*', urlmaster: '>=0.2.15' },
+61 silly resolved     scripts: { test: 'node ./test/runner' },
+61 silly resolved     main: './lib/jsdom',
+61 silly resolved     readme: '# jsdom\n\nA JavaScript implementation of the W3C DOM.\n\n## Install\n\n```bash\n$ npm install jsdom\n```\n\nIf this gives you trouble with errors about installing Contextify, especially on Windows, see [below](#contextify).\n\n## Human contact\n\nsee: [mailing list](http://groups.google.com/group/jsdom)\n\n## Easymode\n\nBootstrapping a DOM is generally a difficult process involving many error prone steps. We didn\'t want jsdom to fall into the same trap and that is why a new method, `jsdom.env()`, has been added in jsdom 0.2.0 which should make everyone\'s lives easier.\n\nYou can use it with a URL\n\n```js\n// Count all of the links from the Node.js build page\nvar jsdom = require("jsdom");\n\njsdom.env(\n  "http://nodejs.org/dist/",\n  ["http://code.jquery.com/jquery.js"],\n  function (errors, window) {\n    console.log("there have been", window.$("a").length, "nodejs releases!");\n  }\n);\n```\n\nor with raw HTML\n\n```js\n// Run some jQuery on a html fragment\nvar jsdom = require("jsdom");\n\njsdom.env(\n  \'<p><a class="the-link" href="https://github.com/tmpvar/jsdom">jsdom\\\'s Homepage</a></p>\',\n  ["http://code.jquery.com/jquery.js"],\n  function (errors, window) {\n    console.log("contents of a.the-link:", window.$("a.the-link").text());\n  }\n);\n```\n\nor with a configuration object\n\n```js\n// Print all of the news items on hackernews\nvar jsdom = require("jsdom");\n\njsdom.env({\n  url: "http://news.ycombinator.com/",\n  scripts: ["http://code.jquery.com/jquery.js"],\n  done: function (errors, window) {\n    var $ = window.$;\n    console.log("HN Links");\n    $("td.title:not(:last) a").each(function() {\n      console.log(" -", $(this).text());\n    });\n  }\n});\n```\n\nor with raw JavaScript source\n\n```js\n// Print all of the news items on hackernews\nvar jsdom = require("jsdom");\nvar fs = require("fs");\nvar jquery = fs.readFileSync("./jquery.js", "utf-8");\n\njsdom.env({\n  url: "http://news.ycombinator.com/",\n  src: [jquery],\n  done: function (errors, window) {\n    var $ = window.$;\n    console.log("HN Links");\n    $("td.title:not(:last) a").each(function () {\n      console.log(" -", $(this).text());\n    });\n  }\n});\n```\n\n### How it works\n`jsdom.env` is built for ease of use, which is rare in the world of the DOM! Since the web has some absolutely horrible JavaScript on it, as of jsdom 0.2.0 `jsdom.env` will not process external resources (scripts, images, etc).  If you want to process the JavaScript use one of the methods below (`jsdom.jsdom` or `jsdom.jQueryify`)\n\n```js\njsdom.env(string, [scripts], [config], callback);\n```\n\nThe arguments are:\n\n- `string`: may be a URL, file name, or HTML fragment\n- `scripts`: a string or array of strings, containing file names or URLs that will be inserted as `<script>` tags\n- `config`: see below\n- `callback`: takes two arguments\n  - `error`: either an `Error` object if something failed initializing the window, or an array of error messages from the DOM if there were script errors\n  - `window`: a brand new `window`\n\n_Example:_\n\n```js\njsdom.env(html, function (errors, window) {\n  // free memory associated with the window\n  window.close();\n});\n```\n\nIf you would like to specify a configuration object only:\n\n```js\njsdom.env(config);\n```\n\n- `config.html`: a HTML fragment\n- `config.file`: a file which jsdom will load HTML from; the resulting window\'s `location.href` will be a `file://` URL.\n- `config.url`: sets the resulting window\'s `location.href`; if `config.html` and `config.file` are not provided, jsdom will load HTML from this URL.\n- `config.scripts`: see `scripts` above.\n- `config.src`: an array of JavaScript strings that will be evaluated against the resulting document. Similar to `scripts`, but it accepts JavaScript instead of paths/URLs.\n- `config.done`: see `callback` above.\n- `config.document`:\n  - `referer`: the new document will have this referer.\n  - `cookie`: manually set a cookie value, e.g. `\'key=value; expires=Wed, Sep 21 2011 12:00:00 GMT; path=/\'`.\n  - `cookieDomain`: a cookie domain for the manually set cookie; defaults to `127.0.0.1`.\n- `config.features` : see `Flexibility` section below. **Note**: the default feature set for jsdom.env does _not_ include fetching remote JavaScript and executing it. This is something that you will need to **carefully** enable yourself.\n\nNote that `config.done` is required, as is one of `config.html`, `config.file`, or `config.url`.\n\n## For the hardcore\n\nIf you want to spawn a document/window and specify all sorts of options this is the section for you. This section covers the `jsdom.jsdom` method:\n\n```js\nvar jsdom = require("jsdom").jsdom;\nvar doc = jsdom(markup, level, options);\nvar window = doc.parentWindow;\n```\n\n- `markup` is an HTML/XML document to be parsed. You can also pass `null` or an undefined value to get a basic document with empty `<head>` and `<body>` tags. Document fragments are also supported (including `""`), and will behave as sanely as possible (e.g. the resulting document will lack the `head`, `body` and `documentElement` properties if the corresponding elements aren\'t included).\n\n- `level` is `null` (which means level3) by default, but you can pass another level if you\'d like.\n\n  ```js\n  var jsdom = require("jsdom");\n  var doc = jsdom.jsdom("<html><body></body></html>", jsdom.level(1, "core"));\n  ```\n\n- `options` see the **Flexibility** section below.\n\n### Flexibility\n\nOne of the goals of jsdom is to be as minimal and light as possible. This section details how someone can change the behavior of `Document`s on the fly.  These features are baked into the `DOMImplementation` that every `Document` has, and may be tweaked in two ways:\n\n1. When you create a new `Document` using the jsdom builder (`require("jsdom").jsdom()`)\n\n  ```js\n  var jsdom = require("jsdom").jsdom;\n  var doc = jsdom("<html><body></body></html>", null, {\n      features: {\n        FetchExternalResources : ["img"]\n      }\n  });\n  ```\n\n  Do note, that this will only affect the document that is currently being created. All other documents will use the defaults specified below (see: Default Features).\n\n2. Before creating any documents, you can modify the defaults for all future documents:\n\n  ```js\n  require("jsdom").defaultDocumentFeatures = {\n      FetchExternalResources: ["script"],\n      ProcessExternalResources: false\n  };\n  ```\n\n#### Default Features\n\nDefault features are extremely important for jsdom as they lower the configuration requirement and present developers a set of consistent default behaviors. The following sections detail the available features, their defaults, and the values that jsdom uses.\n\n\n`FetchExternalResources`\n\n- _Default_: `["script"]`\n- _Allowed_: `["script", "img", "css", "frame", "iframe", "link"]` or `false`\n\nEnables/disables fetching files over the file system/HTTP.\n\n`ProcessExternalResources`\n\n- _Default_: `["script"]`\n- _Allowed_: `["script"]` or `false`\n\nDisabling this will disable script execution (currently only JavaScript).\n\n`SkipExternalResources`\n\n- _Default_: `false`\n- _Allowed_: `/url to be skipped/` or `false`\n- _Example_: `/http:\\/\\/example.org/js/bad\\.js/`\n\nDo not download and process resources with url matching a regular expression.\n\n### Canvas\n\njsdom includes support for using the [canvas](https://npmjs.org/package/canvas) package to extend any `<canvas>` elements with the canvas API. To make this work, you need to include canvas as a dependency in your project, as a peer of jsdom. If jsdom can find the canvas package, it will use it, but if it\'s not present, then `<canvas>` elements will behave like `<div>`s.\n\n## More Examples\n\n### Creating a document\n\n```js\nvar jsdom = require("jsdom");\nvar doc = new (jsdom.level(1, "core").Document)();\n\nconsole.log(doc.nodeName); // outputs: #document\n```\n\n### Creating a browser-like BOM/DOM/Window\n\n```js\nvar jsdom = require("jsdom").jsdom;\nvar document = jsdom("<html><head></head><body>hello world</body></html>");\nvar window = document.parentWindow;\n\nconsole.log(window.document.innerHTML);\n// output: "<html><head></head><body>hello world</body></html>"\n\nconsole.log(window.innerWidth);\n// output: 1024\n\nconsole.log(typeof window.document.getElementsByClassName);\n// outputs: function\n```\n\n### jQueryify\n\n```js\nvar jsdom = require("jsdom");\nvar window = jsdom.jsdom().parentWindow;\n\njsdom.jQueryify(window, "http://code.jquery.com/jquery.js", function () {\n  window.$("body").append(\'<div class="testing">Hello World, It works</div>\');\n\n  console.log(window.$(".testing").text());\n});\n```\n\n### Passing objects to scripts inside the page\n\n```js\nvar jsdom = require("jsdom").jsdom;\nvar window = jsdom().parentWindow;\n\nwindow.__myObject = { foo: "bar" };\n\nvar scriptEl = window.document.createElement("script");\nscriptEl.src = "anotherScript.js";\nwindow.document.body.appendChild(scriptEl);\n\n// anotherScript.js will have the ability to read `window.__myObject`, even\n// though it originated in Node!\n```\n\n## Test Compliance:\n\n```\n level1/core         535/535      100%\n level1/html         238/238      100%\n level1/svg          527/527      100%\n level2/core         283/283      100%\n level2/html         708/708      100%\n level2/style          15/15      100%\n level2/extra            4/4      100%\n level2/events         24/24      100%\n level3/xpath          93/93      100%\n window/index            7/7      100%\n window/history          5/5      100%\n window/script         10/10      100%\n window/console          2/2      100%\n window/frame          16/16      100%\n sizzle/index          14/14      100%\n jsdom/index           76/76      100%\n jsdom/parsing         11/11      100%\n jsdom/env             25/25      100%\n jsonp/jsonp             1/1      100%\n browser/css             1/1      100%\n browser/index         34/34      100%\n---------------------------------------\nTOTALS: 0/2629 failed; 100% success\n```\n\n### Running the tests\n\nFirst you\'ll want to `npm install`. To run all the tests, use `npm test`, which just calls `node test/runner`.\n\nUsing `test/runner` directly, you can slice and dice which tests your want to run from different levels. Usage is as follows:\n\n```\ntest/runner --help\nRun the jsdom test suite\n\nOptions:\n-s, --suites     suites that you want to run. ie: -s level1/core,1/html,html [string]\n-f, --fail-fast  stop on the first failed test\n-h, --help       show the help\n-t, --tests      choose the test cases to run. ie: -t jquery\n```\n\n## Contextify\n\n[Contextify](https://npmjs.org/package/contextify) is a dependency of jsdom, used for running `<script>` tags within the\npage. In other words, it allows jsdom, which is run in Node.js, to run strings of JavaScript in an isolated environment\nthat pretends to be a browser environment instead of a server. You can see how this is an important feature.\n\nUnfortunately, doing this kind of magic requires C++. And in Node.js, using C++ from JavaScript means using "native\nmodules." Native modules are compiled at installation time so that they work precisely for your machine; that is, you\ndon\'t download a contextify binary from npm, but instead build one locally after downloading the source from npm.\n\n\nUnfortunately, getting C++ compiled within npm\'s installation system can be tricky, especially for Windows users. Thus,\none of the most common problems with jsdom is trying to use it without the proper compilation tools installed.\nHere\'s what you need to compile Contextify, and thus to install jsdom:\n\n### Windows\n\n* A recent copy of the *x86* version of [Node.js for Windows](http://nodejs.org/download/), *not* the x64 version.\n* A copy of [Visual C++ 2010 Express](http://www.microsoft.com/visualstudio/eng/downloads#d-2010-express).\n* A copy of [Python 2.7](http://www.python.org/download/), installed in the default location of `C:\\Python27`.\n\nThere are some slight modifications to this that can work; for example full versions of Visual Studio usually work, and\nsometimes you can even get an x64 version of Node.js working too. But it\'s tricky, so start with the basics!\n\n### Mac\n\n* XCode needs to be installed\n* "Command line tools for XCode" need to be installed\n* Launch XCode once to accept the license, etc. and ensure it\'s properly installed\n\n### Linux\n\nYou\'ll need various build tools installed, like `make`, Python 2.7, and a compiler toolchain. How to install these will\nbe specific to your distro, if you don\'t already have them.\n',
+61 silly resolved     readmeFilename: 'README.md',
+61 silly resolved     homepage: 'https://github.com/tmpvar/jsdom',
+61 silly resolved     _id: 'jsdom@0.8.10',
+61 silly resolved     _from: 'jsdom@0.8.10' } ]
+62 info install reboot@0.0.1 into /opt/cgminer
+63 info install jsdom@0.8.10 into /opt/cgminer
+64 info installOne reboot@0.0.1
+65 info installOne jsdom@0.8.10
+66 info /opt/cgminer/node_modules/reboot unbuild
+67 info /opt/cgminer/node_modules/jsdom unbuild
+68 verbose tar unpack /root/.npm/reboot/0.0.1/package.tgz
+69 silly lockFile 0c491927--opt-cgminer-node-modules-reboot tar:///opt/cgminer/node_modules/reboot
+70 verbose lock tar:///opt/cgminer/node_modules/reboot /root/.npm/0c491927--opt-cgminer-node-modules-reboot.lock
+71 silly lockFile 42243ea1-oot-npm-reboot-0-0-1-package-tgz tar:///root/.npm/reboot/0.0.1/package.tgz
+72 verbose lock tar:///root/.npm/reboot/0.0.1/package.tgz /root/.npm/42243ea1-oot-npm-reboot-0-0-1-package-tgz.lock
+73 silly gunzTarPerm modes [ '755', '644' ]
+74 silly gunzTarPerm extractEntry package.json
+75 silly gunzTarPerm extractEntry .npmignore
+76 silly gunzTarPerm extractEntry README.md
+77 silly gunzTarPerm extractEntry LICENSE
+78 silly gunzTarPerm extractEntry index.js
+79 silly gunzTarPerm extractEntry test.js
+80 silly gunzTarPerm extractEntry CHANGELOG
+81 silly gunzTarPerm extractEntry binding.gyp
+82 silly gunzTarPerm extractEntry src/reboot.cc
+83 verbose tar unpack /root/.npm/jsdom/0.8.10/package.tgz
+84 silly lockFile 1bc047e7-r-opt-cgminer-node-modules-jsdom tar:///opt/cgminer/node_modules/jsdom
+85 verbose lock tar:///opt/cgminer/node_modules/jsdom /root/.npm/1bc047e7-r-opt-cgminer-node-modules-jsdom.lock
+86 silly lockFile c66c11c8-oot-npm-jsdom-0-8-10-package-tgz tar:///root/.npm/jsdom/0.8.10/package.tgz
+87 verbose lock tar:///root/.npm/jsdom/0.8.10/package.tgz /root/.npm/c66c11c8-oot-npm-jsdom-0-8-10-package-tgz.lock
+88 silly gunzTarPerm modes [ '755', '644' ]
+89 silly gunzTarPerm extractEntry package.json
+90 silly gunzTarPerm extractEntry README.md
+91 silly gunzTarPerm extractEntry LICENSE.txt
+92 silly gunzTarPerm extractEntry lib/jsdom.js
+93 silly gunzTarPerm extractEntry lib/jsdom/utils.js
+94 silly lockFile 0c491927--opt-cgminer-node-modules-reboot tar:///opt/cgminer/node_modules/reboot
+95 silly lockFile 0c491927--opt-cgminer-node-modules-reboot tar:///opt/cgminer/node_modules/reboot
+96 silly lockFile 42243ea1-oot-npm-reboot-0-0-1-package-tgz tar:///root/.npm/reboot/0.0.1/package.tgz
+97 silly lockFile 42243ea1-oot-npm-reboot-0-0-1-package-tgz tar:///root/.npm/reboot/0.0.1/package.tgz
+98 silly gunzTarPerm extractEntry lib/jsdom/browser/documentfeatures.js
+99 silly gunzTarPerm extractEntry lib/jsdom/browser/domtohtml.js
+100 info preinstall reboot@0.0.1
+101 verbose readDependencies using package.json deps
+102 verbose readDependencies using package.json deps
+103 silly resolved []
+104 verbose about to build /opt/cgminer/node_modules/reboot
+105 info build /opt/cgminer/node_modules/reboot
+106 verbose linkStuff [ false, false, false, '/opt/cgminer/node_modules' ]
+107 info linkStuff reboot@0.0.1
+108 verbose linkBins reboot@0.0.1
+109 verbose linkMans reboot@0.0.1
+110 verbose rebuildBundles reboot@0.0.1
+111 info install reboot@0.0.1
+112 silly gunzTarPerm extractEntry lib/jsdom/browser/history.js
+113 silly gunzTarPerm extractEntry lib/jsdom/browser/htmlencoding.js
+114 verbose unsafe-perm in lifecycle false
+115 silly gunzTarPerm extractEntry lib/jsdom/browser/htmltodom.js
+116 silly gunzTarPerm extractEntry lib/jsdom/browser/index.js
+117 silly gunzTarPerm extractEntry lib/jsdom/browser/location.js
+118 silly gunzTarPerm extractEntry lib/jsdom/browser/utils.js
+119 silly gunzTarPerm extractEntry lib/jsdom/level1/core.js
+120 silly gunzTarPerm extractEntry lib/jsdom/level2/core.js
+121 silly gunzTarPerm extractEntry lib/jsdom/level2/events.js
+122 silly gunzTarPerm extractEntry lib/jsdom/level2/html.js
+123 silly gunzTarPerm extractEntry lib/jsdom/level2/index.js
+124 silly gunzTarPerm extractEntry lib/jsdom/level2/style.js
+125 silly gunzTarPerm extractEntry lib/jsdom/level2/languages/javascript.js
+126 silly gunzTarPerm extractEntry lib/jsdom/level3/core.js
+127 silly gunzTarPerm extractEntry lib/jsdom/level3/events.js
+128 silly gunzTarPerm extractEntry lib/jsdom/level3/html.js
+129 silly gunzTarPerm extractEntry lib/jsdom/level3/index.js
+130 silly gunzTarPerm extractEntry lib/jsdom/level3/ls.js
+131 silly gunzTarPerm extractEntry lib/jsdom/level3/xpath.js
+132 silly gunzTarPerm extractEntry lib/jsdom/selectors/index.js
+133 silly lockFile 1bc047e7-r-opt-cgminer-node-modules-jsdom tar:///opt/cgminer/node_modules/jsdom
+134 silly lockFile 1bc047e7-r-opt-cgminer-node-modules-jsdom tar:///opt/cgminer/node_modules/jsdom
+135 silly lockFile c66c11c8-oot-npm-jsdom-0-8-10-package-tgz tar:///root/.npm/jsdom/0.8.10/package.tgz
+136 silly lockFile c66c11c8-oot-npm-jsdom-0-8-10-package-tgz tar:///root/.npm/jsdom/0.8.10/package.tgz
+137 info preinstall jsdom@0.8.10
+138 verbose readDependencies using package.json deps
+139 verbose readDependencies using package.json deps
+140 verbose cache add [ 'request@2.x', null ]
+141 verbose cache add name=undefined spec="request@2.x" args=["request@2.x",null]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: 'request@2.x',
+142 verbose parsed url   path: 'request@2.x',
+142 verbose parsed url   href: 'request@2.x' }
+143 verbose cache add name="request" spec="2.x" args=["request","2.x"]
+144 verbose parsed url { protocol: null,
+144 verbose parsed url   slashes: null,
+144 verbose parsed url   auth: null,
+144 verbose parsed url   host: null,
+144 verbose parsed url   port: null,
+144 verbose parsed url   hostname: null,
+144 verbose parsed url   hash: null,
+144 verbose parsed url   search: null,
+144 verbose parsed url   query: null,
+144 verbose parsed url   pathname: '2.x',
+144 verbose parsed url   path: '2.x',
+144 verbose parsed url   href: '2.x' }
+145 verbose addNamed [ 'request', '2.x' ]
+146 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+147 silly lockFile c23ecae0-request-2-x request@2.x
+148 verbose lock request@2.x /root/.npm/c23ecae0-request-2-x.lock
+149 verbose cache add [ 'htmlparser2@>= 3.1.5 <4', null ]
+150 verbose cache add name=undefined spec="htmlparser2@>= 3.1.5 <4" args=["htmlparser2@>= 3.1.5 <4",null]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: 'htmlparser2@%3E=%203.1.5%20%3C4',
+151 verbose parsed url   path: 'htmlparser2@%3E=%203.1.5%20%3C4',
+151 verbose parsed url   href: 'htmlparser2@%3E=%203.1.5%20%3C4' }
+152 verbose cache add name="htmlparser2" spec=">= 3.1.5 <4" args=["htmlparser2",">= 3.1.5 <4"]
+153 verbose parsed url { protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: '%3E=%203.1.5%20%3C4',
+153 verbose parsed url   path: '%3E=%203.1.5%20%3C4',
+153 verbose parsed url   href: '%3E=%203.1.5%20%3C4' }
+154 verbose addNamed [ 'htmlparser2', '>= 3.1.5 <4' ]
+155 verbose addNamed [ null, '>=3.1.5 <4.0.0-0' ]
+156 silly lockFile 0e2879d5-htmlparser2-3-1-5-4 htmlparser2@>= 3.1.5 <4
+157 verbose lock htmlparser2@>= 3.1.5 <4 /root/.npm/0e2879d5-htmlparser2-3-1-5-4.lock
+158 verbose cache add [ 'nwmatcher@~1.3.1', null ]
+159 verbose cache add name=undefined spec="nwmatcher@~1.3.1" args=["nwmatcher@~1.3.1",null]
+160 verbose parsed url { protocol: null,
+160 verbose parsed url   slashes: null,
+160 verbose parsed url   auth: null,
+160 verbose parsed url   host: null,
+160 verbose parsed url   port: null,
+160 verbose parsed url   hostname: null,
+160 verbose parsed url   hash: null,
+160 verbose parsed url   search: null,
+160 verbose parsed url   query: null,
+160 verbose parsed url   pathname: 'nwmatcher@~1.3.1',
+160 verbose parsed url   path: 'nwmatcher@~1.3.1',
+160 verbose parsed url   href: 'nwmatcher@~1.3.1' }
+161 verbose cache add name="nwmatcher" spec="~1.3.1" args=["nwmatcher","~1.3.1"]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: '~1.3.1',
+162 verbose parsed url   path: '~1.3.1',
+162 verbose parsed url   href: '~1.3.1' }
+163 verbose addNamed [ 'nwmatcher', '~1.3.1' ]
+164 verbose addNamed [ null, '>=1.3.1-0 <1.4.0-0' ]
+165 silly lockFile 315a8aad-nwmatcher-1-3-1 nwmatcher@~1.3.1
+166 verbose lock nwmatcher@~1.3.1 /root/.npm/315a8aad-nwmatcher-1-3-1.lock
+167 verbose cache add [ 'xmlhttprequest@>=1.5.0', null ]
+168 verbose cache add name=undefined spec="xmlhttprequest@>=1.5.0" args=["xmlhttprequest@>=1.5.0",null]
+169 verbose parsed url { protocol: null,
+169 verbose parsed url   slashes: null,
+169 verbose parsed url   auth: null,
+169 verbose parsed url   host: null,
+169 verbose parsed url   port: null,
+169 verbose parsed url   hostname: null,
+169 verbose parsed url   hash: null,
+169 verbose parsed url   search: null,
+169 verbose parsed url   query: null,
+169 verbose parsed url   pathname: 'xmlhttprequest@%3E=1.5.0',
+169 verbose parsed url   path: 'xmlhttprequest@%3E=1.5.0',
+169 verbose parsed url   href: 'xmlhttprequest@%3E=1.5.0' }
+170 verbose cache add name="xmlhttprequest" spec=">=1.5.0" args=["xmlhttprequest",">=1.5.0"]
+171 verbose parsed url { protocol: null,
+171 verbose parsed url   slashes: null,
+171 verbose parsed url   auth: null,
+171 verbose parsed url   host: null,
+171 verbose parsed url   port: null,
+171 verbose parsed url   hostname: null,
+171 verbose parsed url   hash: null,
+171 verbose parsed url   search: null,
+171 verbose parsed url   query: null,
+171 verbose parsed url   pathname: '%3E=1.5.0',
+171 verbose parsed url   path: '%3E=1.5.0',
+171 verbose parsed url   href: '%3E=1.5.0' }
+172 verbose addNamed [ 'xmlhttprequest', '>=1.5.0' ]
+173 verbose addNamed [ null, '>=1.5.0' ]
+174 silly lockFile 7fa1418d-xmlhttprequest-1-5-0 xmlhttprequest@>=1.5.0
+175 verbose lock xmlhttprequest@>=1.5.0 /root/.npm/7fa1418d-xmlhttprequest-1-5-0.lock
+176 verbose cache add [ 'cssom@~0.3.0', null ]
+177 verbose cache add name=undefined spec="cssom@~0.3.0" args=["cssom@~0.3.0",null]
+178 verbose parsed url { protocol: null,
+178 verbose parsed url   slashes: null,
+178 verbose parsed url   auth: null,
+178 verbose parsed url   host: null,
+178 verbose parsed url   port: null,
+178 verbose parsed url   hostname: null,
+178 verbose parsed url   hash: null,
+178 verbose parsed url   search: null,
+178 verbose parsed url   query: null,
+178 verbose parsed url   pathname: 'cssom@~0.3.0',
+178 verbose parsed url   path: 'cssom@~0.3.0',
+178 verbose parsed url   href: 'cssom@~0.3.0' }
+179 verbose cache add name="cssom" spec="~0.3.0" args=["cssom","~0.3.0"]
+180 verbose parsed url { protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: '~0.3.0',
+180 verbose parsed url   path: '~0.3.0',
+180 verbose parsed url   href: '~0.3.0' }
+181 verbose addNamed [ 'cssom', '~0.3.0' ]
+182 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+183 silly lockFile 7e27c00c-cssom-0-3-0 cssom@~0.3.0
+184 verbose lock cssom@~0.3.0 /root/.npm/7e27c00c-cssom-0-3-0.lock
+185 verbose cache add [ 'cssstyle@~0.2.6', null ]
+186 verbose cache add name=undefined spec="cssstyle@~0.2.6" args=["cssstyle@~0.2.6",null]
+187 verbose parsed url { protocol: null,
+187 verbose parsed url   slashes: null,
+187 verbose parsed url   auth: null,
+187 verbose parsed url   host: null,
+187 verbose parsed url   port: null,
+187 verbose parsed url   hostname: null,
+187 verbose parsed url   hash: null,
+187 verbose parsed url   search: null,
+187 verbose parsed url   query: null,
+187 verbose parsed url   pathname: 'cssstyle@~0.2.6',
+187 verbose parsed url   path: 'cssstyle@~0.2.6',
+187 verbose parsed url   href: 'cssstyle@~0.2.6' }
+188 verbose cache add name="cssstyle" spec="~0.2.6" args=["cssstyle","~0.2.6"]
+189 verbose parsed url { protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: '~0.2.6',
+189 verbose parsed url   path: '~0.2.6',
+189 verbose parsed url   href: '~0.2.6' }
+190 verbose addNamed [ 'cssstyle', '~0.2.6' ]
+191 verbose addNamed [ null, '>=0.2.6-0 <0.3.0-0' ]
+192 silly lockFile 27984377-cssstyle-0-2-6 cssstyle@~0.2.6
+193 verbose lock cssstyle@~0.2.6 /root/.npm/27984377-cssstyle-0-2-6.lock
+194 verbose cache add [ 'contextify@~0.1.5', null ]
+195 verbose cache add name=undefined spec="contextify@~0.1.5" args=["contextify@~0.1.5",null]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: 'contextify@~0.1.5',
+196 verbose parsed url   path: 'contextify@~0.1.5',
+196 verbose parsed url   href: 'contextify@~0.1.5' }
+197 verbose cache add name="contextify" spec="~0.1.5" args=["contextify","~0.1.5"]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: '~0.1.5',
+198 verbose parsed url   path: '~0.1.5',
+198 verbose parsed url   href: '~0.1.5' }
+199 verbose addNamed [ 'contextify', '~0.1.5' ]
+200 verbose addNamed [ null, '>=0.1.5-0 <0.2.0-0' ]
+201 silly lockFile 39127fdc-contextify-0-1-5 contextify@~0.1.5
+202 verbose lock contextify@~0.1.5 /root/.npm/39127fdc-contextify-0-1-5.lock
+203 silly addNameRange { name: 'request', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+204 silly addNameRange { name: 'htmlparser2',
+204 silly addNameRange   range: '>=3.1.5 <4.0.0-0',
+204 silly addNameRange   hasData: false }
+205 silly addNameRange { name: 'nwmatcher',
+205 silly addNameRange   range: '>=1.3.1-0 <1.4.0-0',
+205 silly addNameRange   hasData: false }
+206 silly addNameRange { name: 'xmlhttprequest', range: '>=1.5.0', hasData: false }
+207 silly addNameRange { name: 'cssom', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
+208 silly addNameRange { name: 'cssstyle', range: '>=0.2.6-0 <0.3.0-0', hasData: false }
+209 silly addNameRange { name: 'contextify',
+209 silly addNameRange   range: '>=0.1.5-0 <0.2.0-0',
+209 silly addNameRange   hasData: false }
+210 verbose url raw request
+211 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+212 verbose url resolved https://registry.npmjs.org/request
+213 info trying registry request attempt 1 at 16:10:35
+214 verbose etag "1EHLGKH7BOAEFUHW3IKKP5AJZ"
+215 http GET https://registry.npmjs.org/request
+216 verbose url raw htmlparser2
+217 verbose url resolving [ 'https://registry.npmjs.org/', './htmlparser2' ]
+218 verbose url resolved https://registry.npmjs.org/htmlparser2
+219 info trying registry request attempt 1 at 16:10:35
+220 verbose etag "7BDOQV4EA8ZOPLBOMMJCJOCKU"
+221 http GET https://registry.npmjs.org/htmlparser2
+222 verbose url raw nwmatcher
+223 verbose url resolving [ 'https://registry.npmjs.org/', './nwmatcher' ]
+224 verbose url resolved https://registry.npmjs.org/nwmatcher
+225 info trying registry request attempt 1 at 16:10:35
+226 verbose etag "CXY978H7JV1BXLPFNPZ7SG61U"
+227 http GET https://registry.npmjs.org/nwmatcher
+228 verbose url raw xmlhttprequest
+229 verbose url resolving [ 'https://registry.npmjs.org/', './xmlhttprequest' ]
+230 verbose url resolved https://registry.npmjs.org/xmlhttprequest
+231 info trying registry request attempt 1 at 16:10:35
+232 verbose etag "6GWU9456PEG48NRHLPTKYOMH0"
+233 http GET https://registry.npmjs.org/xmlhttprequest
+234 verbose url raw cssom
+235 verbose url resolving [ 'https://registry.npmjs.org/', './cssom' ]
+236 verbose url resolved https://registry.npmjs.org/cssom
+237 info trying registry request attempt 1 at 16:10:35
+238 verbose etag "3AVXQUM8NK1BM3ZFID88OUF02"
+239 http GET https://registry.npmjs.org/cssom
+240 verbose url raw cssstyle
+241 verbose url resolving [ 'https://registry.npmjs.org/', './cssstyle' ]
+242 verbose url resolved https://registry.npmjs.org/cssstyle
+243 info trying registry request attempt 1 at 16:10:35
+244 verbose etag "CU95CFDFL7IN0959U70QQ3R2T"
+245 http GET https://registry.npmjs.org/cssstyle
+246 verbose url raw contextify
+247 verbose url resolving [ 'https://registry.npmjs.org/', './contextify' ]
+248 verbose url resolved https://registry.npmjs.org/contextify
+249 info trying registry request attempt 1 at 16:10:35
+250 verbose etag "CC07FO32MVQ7IM5ZN3CPVF619"
+251 http GET https://registry.npmjs.org/contextify
+252 http 304 https://registry.npmjs.org/nwmatcher
+253 silly registry.get cb [ 304,
+253 silly registry.get   { date: 'Tue, 25 Mar 2014 20:10:36 GMT',
+253 silly registry.get     server: 'Apache',
+253 silly registry.get     via: '1.1 varnish',
+253 silly registry.get     'last-modified': 'Tue, 25 Mar 2014 20:10:36 GMT',
+253 silly registry.get     'cache-control': 'max-age=1',
+253 silly registry.get     etag: '"CXY978H7JV1BXLPFNPZ7SG61U"',
+253 silly registry.get     'x-served-by': 'cache-v43-ASH',
+253 silly registry.get     'x-cache': 'MISS',
+253 silly registry.get     'x-cache-hits': '0',
+253 silly registry.get     'x-timer': 'S1395778236.084045649,VS0,VE10',
+253 silly registry.get     vary: 'Accept',
+253 silly registry.get     'content-length': '0',
+253 silly registry.get     'keep-alive': 'timeout=10, max=50',
+253 silly registry.get     connection: 'Keep-Alive' } ]
+254 verbose etag nwmatcher from cache
+255 silly addNameRange number 2 { name: 'nwmatcher', range: '>=1.3.1-0 <1.4.0-0', hasData: true }
+256 silly addNameRange versions [ 'nwmatcher', [ '1.2.5', '1.3.0', '1.3.1' ] ]
+257 verbose addNamed [ 'nwmatcher', '1.3.1' ]
+258 verbose addNamed [ '1.3.1', '1.3.1' ]
+259 silly lockFile 3606fc87-nwmatcher-1-3-1 nwmatcher@1.3.1
+260 verbose lock nwmatcher@1.3.1 /root/.npm/3606fc87-nwmatcher-1-3-1.lock
+261 silly lockFile 3606fc87-nwmatcher-1-3-1 nwmatcher@1.3.1
+262 silly lockFile 3606fc87-nwmatcher-1-3-1 nwmatcher@1.3.1
+263 silly lockFile 315a8aad-nwmatcher-1-3-1 nwmatcher@~1.3.1
+264 silly lockFile 315a8aad-nwmatcher-1-3-1 nwmatcher@~1.3.1
+265 http 304 https://registry.npmjs.org/cssstyle
+266 silly registry.get cb [ 304,
+266 silly registry.get   { date: 'Tue, 25 Mar 2014 20:10:36 GMT',
+266 silly registry.get     server: 'Apache',
+266 silly registry.get     via: '1.1 varnish',
+266 silly registry.get     'last-modified': 'Tue, 25 Mar 2014 20:10:36 GMT',
+266 silly registry.get     'cache-control': 'max-age=1',
+266 silly registry.get     etag: '"CU95CFDFL7IN0959U70QQ3R2T"',
+266 silly registry.get     'x-served-by': 'cache-v43-ASH',
+266 silly registry.get     'x-cache': 'MISS',
+266 silly registry.get     'x-cache-hits': '0',
+266 silly registry.get     'x-timer': 'S1395778236.117386580,VS0,VE19',
+266 silly registry.get     vary: 'Accept',
+266 silly registry.get     'content-length': '0',
+266 silly registry.get     'keep-alive': 'timeout=10, max=49',
+266 silly registry.get     connection: 'Keep-Alive' } ]
+267 verbose etag cssstyle from cache
+268 silly addNameRange number 2 { name: 'cssstyle', range: '>=0.2.6-0 <0.3.0-0', hasData: true }
+269 silly addNameRange versions [ 'cssstyle',
+269 silly addNameRange   [ '0.1.0',
+269 silly addNameRange     '0.2.0',
+269 silly addNameRange     '0.2.1',
+269 silly addNameRange     '0.2.2',
+269 silly addNameRange     '0.2.3',
+269 silly addNameRange     '0.2.4',
+269 silly addNameRange     '0.2.5',
+269 silly addNameRange     '0.2.6',
+269 silly addNameRange     '0.2.7',
+269 silly addNameRange     '0.2.8',
+269 silly addNameRange     '0.2.9',
+269 silly addNameRange     '0.2.10',
+269 silly addNameRange     '0.2.11' ] ]
+270 verbose addNamed [ 'cssstyle', '0.2.11' ]
+271 verbose addNamed [ '0.2.11', '0.2.11' ]
+272 silly lockFile 24f4be32-cssstyle-0-2-11 cssstyle@0.2.11
+273 verbose lock cssstyle@0.2.11 /root/.npm/24f4be32-cssstyle-0-2-11.lock
+274 silly lockFile 24f4be32-cssstyle-0-2-11 cssstyle@0.2.11
+275 silly lockFile 24f4be32-cssstyle-0-2-11 cssstyle@0.2.11
+276 silly lockFile 27984377-cssstyle-0-2-6 cssstyle@~0.2.6
+277 silly lockFile 27984377-cssstyle-0-2-6 cssstyle@~0.2.6
+278 http 304 https://registry.npmjs.org/cssom
+279 silly registry.get cb [ 304,
+279 silly registry.get   { date: 'Tue, 25 Mar 2014 20:10:36 GMT',
+279 silly registry.get     server: 'Apache',
+279 silly registry.get     via: '1.1 varnish',
+279 silly registry.get     'last-modified': 'Tue, 25 Mar 2014 20:10:36 GMT',
+279 silly registry.get     'cache-control': 'max-age=1',
+279 silly registry.get     etag: '"3AVXQUM8NK1BM3ZFID88OUF02"',
+279 silly registry.get     'x-served-by': 'cache-v37-ASH',
+279 silly registry.get     'x-cache': 'MISS',
+279 silly registry.get     'x-cache-hits': '0',
+279 silly registry.get     'x-timer': 'S1395778236.724915028,VS0,VE48',
+279 silly registry.get     vary: 'Accept',
+279 silly registry.get     'content-length': '0',
+279 silly registry.get     'keep-alive': 'timeout=10, max=50',
+279 silly registry.get     connection: 'Keep-Alive' } ]
+280 verbose etag cssom from cache
+281 silly addNameRange number 2 { name: 'cssom', range: '>=0.3.0-0 <0.4.0-0', hasData: true }
+282 silly addNameRange versions [ 'cssom',
+282 silly addNameRange   [ '0.2.0', '0.2.1', '0.2.2', '0.2.3', '0.2.4', '0.2.5', '0.3.0' ] ]
+283 verbose addNamed [ 'cssom', '0.3.0' ]
+284 verbose addNamed [ '0.3.0', '0.3.0' ]
+285 silly lockFile 1f828fab-cssom-0-3-0 cssom@0.3.0
+286 verbose lock cssom@0.3.0 /root/.npm/1f828fab-cssom-0-3-0.lock
+287 silly lockFile 1f828fab-cssom-0-3-0 cssom@0.3.0
+288 silly lockFile 1f828fab-cssom-0-3-0 cssom@0.3.0
+289 silly lockFile 7e27c00c-cssom-0-3-0 cssom@~0.3.0
+290 silly lockFile 7e27c00c-cssom-0-3-0 cssom@~0.3.0
+291 http 304 https://registry.npmjs.org/xmlhttprequest
+292 silly registry.get cb [ 304,
+292 silly registry.get   { date: 'Tue, 25 Mar 2014 20:10:35 GMT',
+292 silly registry.get     server: 'Apache',
+292 silly registry.get     via: '1.1 varnish',
+292 silly registry.get     'last-modified': 'Tue, 25 Mar 2014 20:10:35 GMT',
+292 silly registry.get     'cache-control': 'max-age=1',
+292 silly registry.get     etag: '"6GWU9456PEG48NRHLPTKYOMH0"',
+292 silly registry.get     'x-served-by': 'cache-v44-ASH',
+292 silly registry.get     'x-cache': 'MISS',
+292 silly registry.get     'x-cache-hits': '0',
+292 silly registry.get     'x-timer': 'S1395778235.441653967,VS0,VE116',
+292 silly registry.get     vary: 'Accept',
+292 silly registry.get     'content-length': '0',
+292 silly registry.get     'keep-alive': 'timeout=10, max=50',
+292 silly registry.get     connection: 'Keep-Alive' } ]
+293 verbose etag xmlhttprequest from cache
+294 silly addNameRange number 2 { name: 'xmlhttprequest', range: '>=1.5.0', hasData: true }
+295 silly addNameRange versions [ 'xmlhttprequest',
+295 silly addNameRange   [ '1.0.0',
+295 silly addNameRange     '1.2.0',
+295 silly addNameRange     '1.2.1',
+295 silly addNameRange     '1.2.2',
+295 silly addNameRange     '1.3.0',
+295 silly addNameRange     '1.4.0',
+295 silly addNameRange     '1.4.2',
+295 silly addNameRange     '1.5.0',
+295 silly addNameRange     '1.6.0' ] ]
+296 verbose addNamed [ 'xmlhttprequest', '1.6.0' ]
+297 verbose addNamed [ '1.6.0', '1.6.0' ]
+298 silly lockFile 3c7905a4-xmlhttprequest-1-6-0 xmlhttprequest@1.6.0
+299 verbose lock xmlhttprequest@1.6.0 /root/.npm/3c7905a4-xmlhttprequest-1-6-0.lock
+300 silly lockFile 3c7905a4-xmlhttprequest-1-6-0 xmlhttprequest@1.6.0
+301 silly lockFile 3c7905a4-xmlhttprequest-1-6-0 xmlhttprequest@1.6.0
+302 silly lockFile 7fa1418d-xmlhttprequest-1-5-0 xmlhttprequest@>=1.5.0
+303 silly lockFile 7fa1418d-xmlhttprequest-1-5-0 xmlhttprequest@>=1.5.0
+304 http 304 https://registry.npmjs.org/contextify
+305 silly registry.get cb [ 304,
+305 silly registry.get   { date: 'Tue, 25 Mar 2014 20:10:36 GMT',
+305 silly registry.get     server: 'Apache',
+305 silly registry.get     via: '1.1 varnish',
+305 silly registry.get     'last-modified': 'Tue, 25 Mar 2014 20:10:36 GMT',
+305 silly registry.get     'cache-control': 'max-age=1',
+305 silly registry.get     etag: '"CC07FO32MVQ7IM5ZN3CPVF619"',
+305 silly registry.get     'x-served-by': 'cache-v43-ASH',
+305 silly registry.get     'x-cache': 'MISS',
+305 silly registry.get     'x-cache-hits': '0',
+305 silly registry.get     'x-timer': 'S1395778236.159448862,VS0,VE93',
+305 silly registry.get     vary: 'Accept',
+305 silly registry.get     'content-length': '0',
+305 silly registry.get     'keep-alive': 'timeout=10, max=48',
+305 silly registry.get     connection: 'Keep-Alive' } ]
+306 verbose etag contextify from cache
+307 silly addNameRange number 2 { name: 'contextify',
+307 silly addNameRange   range: '>=0.1.5-0 <0.2.0-0',
+307 silly addNameRange   hasData: true }
+308 silly addNameRange versions [ 'contextify',
+308 silly addNameRange   [ '0.0.2',
+308 silly addNameRange     '0.0.3',
+308 silly addNameRange     '0.0.4',
+308 silly addNameRange     '0.0.5',
+308 silly addNameRange     '0.0.6',
+308 silly addNameRange     '0.0.7',
+308 silly addNameRange     '0.1.0',
+308 silly addNameRange     '0.1.1',
+308 silly addNameRange     '0.1.2',
+308 silly addNameRange     '0.1.3',
+308 silly addNameRange     '0.1.4',
+308 silly addNameRange     '0.1.5',
+308 silly addNameRange     '0.1.6',
+308 silly addNameRange     '0.1.7' ] ]
+309 verbose addNamed [ 'contextify', '0.1.7' ]
+310 verbose addNamed [ '0.1.7', '0.1.7' ]
+311 silly lockFile df1d1460-contextify-0-1-7 contextify@0.1.7
+312 verbose lock contextify@0.1.7 /root/.npm/df1d1460-contextify-0-1-7.lock
+313 silly lockFile df1d1460-contextify-0-1-7 contextify@0.1.7
+314 silly lockFile df1d1460-contextify-0-1-7 contextify@0.1.7
+315 silly lockFile 39127fdc-contextify-0-1-5 contextify@~0.1.5
+316 silly lockFile 39127fdc-contextify-0-1-5 contextify@~0.1.5
+317 http 304 https://registry.npmjs.org/htmlparser2
+318 silly registry.get cb [ 304,
+318 silly registry.get   { date: 'Tue, 25 Mar 2014 20:10:36 GMT',
+318 silly registry.get     server: 'Apache',
+318 silly registry.get     via: '1.1 varnish',
+318 silly registry.get     'last-modified': 'Tue, 25 Mar 2014 20:10:36 GMT',
+318 silly registry.get     'cache-control': 'max-age=1',
+318 silly registry.get     etag: '"7BDOQV4EA8ZOPLBOMMJCJOCKU"',
+318 silly registry.get     'x-served-by': 'cache-v43-ASH',
+318 silly registry.get     'x-cache': 'MISS',
+318 silly registry.get     'x-cache-hits': '0',
+318 silly registry.get     'x-timer': 'S1395778236.079647064,VS0,VE283',
+318 silly registry.get     vary: 'Accept',
+318 silly registry.get     'content-length': '0',
+318 silly registry.get     'keep-alive': 'timeout=10, max=50',
+318 silly registry.get     connection: 'Keep-Alive' } ]
+319 verbose etag htmlparser2 from cache
+320 http 304 https://registry.npmjs.org/request
+321 silly registry.get cb [ 304,
+321 silly registry.get   { date: 'Tue, 25 Mar 2014 20:10:35 GMT',
+321 silly registry.get     server: 'Apache',
+321 silly registry.get     via: '1.1 varnish',
+321 silly registry.get     'last-modified': 'Tue, 25 Mar 2014 20:10:35 GMT',
+321 silly registry.get     'cache-control': 'max-age=1',
+321 silly registry.get     etag: '"1EHLGKH7BOAEFUHW3IKKP5AJZ"',
+321 silly registry.get     'x-served-by': 'cache-v44-ASH',
+321 silly registry.get     'x-cache': 'HIT',
+321 silly registry.get     'x-cache-hits': '1',
+321 silly registry.get     'x-timer': 'S1395778235.429500818,VS0,VE294',
+321 silly registry.get     vary: 'Accept',
+321 silly registry.get     'content-length': '0',
+321 silly registry.get     'keep-alive': 'timeout=10, max=50',
+321 silly registry.get     connection: 'Keep-Alive' } ]
+322 verbose etag request from cache
+323 silly addNameRange number 2 { name: 'htmlparser2', range: '>=3.1.5 <4.0.0-0', hasData: true }
+324 silly addNameRange versions [ 'htmlparser2',
+324 silly addNameRange   [ '1.0.0',
+324 silly addNameRange     '1.1.0',
+324 silly addNameRange     '1.5.0',
+324 silly addNameRange     '2.0.0',
+324 silly addNameRange     '2.0.1',
+324 silly addNameRange     '2.1.0',
+324 silly addNameRange     '2.1.1',
+324 silly addNameRange     '2.1.2',
+324 silly addNameRange     '2.1.3',
+324 silly addNameRange     '2.2.0',
+324 silly addNameRange     '2.2.2',
+324 silly addNameRange     '2.2.3',
+324 silly addNameRange     '2.2.4',
+324 silly addNameRange     '2.2.5',
+324 silly addNameRange     '2.2.6',
+324 silly addNameRange     '2.2.7',
+324 silly addNameRange     '2.2.8',
+324 silly addNameRange     '2.2.9',
+324 silly addNameRange     '2.3.0',
+324 silly addNameRange     '2.5.0',
+324 silly addNameRange     '2.5.1',
+324 silly addNameRange     '2.5.2',
+324 silly addNameRange     '2.6.0',
+324 silly addNameRange     '3.0.0',
+324 silly addNameRange     '3.0.1',
+324 silly addNameRange     '3.0.2',
+324 silly addNameRange     '3.0.3',
+324 silly addNameRange     '3.0.4',
+324 silly addNameRange     '3.0.5',
+324 silly addNameRange     '3.1.1',
+324 silly addNameRange     '3.1.2',
+324 silly addNameRange     '3.1.3',
+324 silly addNameRange     '3.1.4',
+324 silly addNameRange     '3.1.5',
+324 silly addNameRange     '3.1.6',
+324 silly addNameRange     '3.2.0',
+324 silly addNameRange     '3.2.1',
+324 silly addNameRange     '3.2.2',
+324 silly addNameRange     '3.2.3',
+324 silly addNameRange     '3.2.4',
+324 silly addNameRange     '3.2.5',
+324 silly addNameRange     '3.3.0',
+324 silly addNameRange     '3.4.0',
+324 silly addNameRange     '3.5.0',
+324 silly addNameRange     '3.5.1',
+324 silly addNameRange     '3.6.0',
+324 silly addNameRange     '3.7.0',
+324 silly addNameRange     '3.7.1' ] ]
+325 verbose addNamed [ 'htmlparser2', '3.7.1' ]
+326 verbose addNamed [ '3.7.1', '3.7.1' ]
+327 silly lockFile 362a3f42-htmlparser2-3-7-1 htmlparser2@3.7.1
+328 verbose lock htmlparser2@3.7.1 /root/.npm/362a3f42-htmlparser2-3-7-1.lock
+329 silly addNameRange number 2 { name: 'request', range: '>=2.0.0-0 <3.0.0-0', hasData: true }
+330 silly addNameRange versions [ 'request',
+330 silly addNameRange   [ '0.10.0',
+330 silly addNameRange     '0.8.3',
+330 silly addNameRange     '0.9.0',
+330 silly addNameRange     '0.9.1',
+330 silly addNameRange     '0.9.5',
+330 silly addNameRange     '1.0.0',
+330 silly addNameRange     '1.1.0',
+330 silly addNameRange     '1.1.1',
+330 silly addNameRange     '1.2.0',
+330 silly addNameRange     '1.9.0',
+330 silly addNameRange     '1.9.1',
+330 silly addNameRange     '1.9.2',
+330 silly addNameRange     '1.9.3',
+330 silly addNameRange     '1.9.5',
+330 silly addNameRange     '1.9.7',
+330 silly addNameRange     '1.9.8',
+330 silly addNameRange     '1.9.9',
+330 silly addNameRange     '2.0.0',
+330 silly addNameRange     '2.0.1',
+330 silly addNameRange     '2.0.2',
+330 silly addNameRange     '2.0.3',
+330 silly addNameRange     '2.0.4',
+330 silly addNameRange     '2.0.5',
+330 silly addNameRange     '2.1.0',
+330 silly addNameRange     '2.1.1',
+330 silly addNameRange     '2.2.0',
+330 silly addNameRange     '2.2.5',
+330 silly addNameRange     '2.2.6',
+330 silly addNameRange     '2.2.9',
+330 silly addNameRange     '2.9.0',
+330 silly addNameRange     '2.9.1',
+330 silly addNameRange     '2.9.2',
+330 silly addNameRange     '2.9.3',
+330 silly addNameRange     '2.9.100',
+330 silly addNameRange     '2.9.150',
+330 silly addNameRange     '2.9.151',
+330 silly addNameRange     '2.9.152',
+330 silly addNameRange     '2.9.153',
+330 silly addNameRange     '2.9.200',
+330 silly addNameRange     '2.9.201',
+330 silly addNameRange     '2.9.202',
+330 silly addNameRange     '2.9.203',
+330 silly addNameRange     '2.10.0',
+330 silly addNameRange     '2.11.0',
+330 silly addNameRange     '2.11.1',
+330 silly addNameRange     '2.11.2',
+330 silly addNameRange     '2.11.3',
+330 silly addNameRange     '2.11.4',
+330 silly addNameRange     '2.12.0',
+330 silly addNameRange     '2.14.0',
+330 silly addNameRange     '2.16.0',
+330 silly addNameRange     '2.16.2',
+330 silly addNameRange     '2.16.4',
+330 silly addNameRange     '2.16.6',
+330 silly addNameRange     '2.18.0',
+330 silly addNameRange     '2.19.0',
+330 silly addNameRange     '2.20.0',
+330 silly addNameRange     '2.21.0',
+330 silly addNameRange     '2.22.0',
+330 silly addNameRange     '2.23.0',
+330 silly addNameRange     '2.24.0',
+330 silly addNameRange     '2.25.0',
+330 silly addNameRange     '2.26.0',
+330 silly addNameRange     '2.27.0',
+330 silly addNameRange     '2.28.0',
+330 silly addNameRange     '2.29.0',
+330 silly addNameRange     '2.30.0',
+330 silly addNameRange     '2.31.0',
+330 silly addNameRange     '2.32.0',
+330 silly addNameRange     '2.33.0',
+330 silly addNameRange     '2.34.0' ] ]
+331 verbose addNamed [ 'request', '2.34.0' ]
+332 verbose addNamed [ '2.34.0', '2.34.0' ]
+333 silly lockFile a8edf972-request-2-34-0 request@2.34.0
+334 verbose lock request@2.34.0 /root/.npm/a8edf972-request-2-34-0.lock
+335 silly lockFile 362a3f42-htmlparser2-3-7-1 htmlparser2@3.7.1
+336 silly lockFile 362a3f42-htmlparser2-3-7-1 htmlparser2@3.7.1
+337 silly lockFile 0e2879d5-htmlparser2-3-1-5-4 htmlparser2@>= 3.1.5 <4
+338 silly lockFile 0e2879d5-htmlparser2-3-1-5-4 htmlparser2@>= 3.1.5 <4
+339 silly lockFile a8edf972-request-2-34-0 request@2.34.0
+340 silly lockFile a8edf972-request-2-34-0 request@2.34.0
+341 silly lockFile c23ecae0-request-2-x request@2.x
+342 silly lockFile c23ecae0-request-2-x request@2.x
+343 silly resolved [ { name: 'nwmatcher',
+343 silly resolved     version: '1.3.1',
+343 silly resolved     description: 'A CSS3-compliant JavaScript selector engine.',
+343 silly resolved     homepage: 'http://javascript.nwbox.com/NWMatcher/',
+343 silly resolved     main: './src/nwmatcher',
+343 silly resolved     keywords: [ 'css', 'matcher', 'selector', 'ender' ],
+343 silly resolved     licenses: [ [Object] ],
+343 silly resolved     author:
+343 silly resolved      { name: 'Diego Perini',
+343 silly resolved        email: 'diego.perini@gmail.com',
+343 silly resolved        url: 'http://www.iport.it/' },
+343 silly resolved     maintainers: [ [Object] ],
+343 silly resolved     bugs: { url: 'http://github.com/dperini/nwmatcher/issues' },
+343 silly resolved     repository: { type: 'git', url: 'git://github.com/dperini/nwmatcher.git' },
+343 silly resolved     ender: './lib/ender/bridge.js',
+343 silly resolved     readme: 'ERROR: No README data found!',
+343 silly resolved     readmeFilename: 'README',
+343 silly resolved     _id: 'nwmatcher@1.3.1',
+343 silly resolved     _from: 'nwmatcher@~1.3.1' },
+343 silly resolved   { name: 'cssstyle',
+343 silly resolved     description: 'CSSStyleDeclaration Object Model implementation',
+343 silly resolved     keywords: [ 'CSS', 'CSSStyleDeclaration', 'StyleSheet' ],
+343 silly resolved     version: '0.2.11',
+343 silly resolved     homepage: 'https://github.com/chad3814/CSSStyleDeclaration',
+343 silly resolved     maintainers: [ [Object] ],
+343 silly resolved     contributors: [ [Object] ],
+343 silly resolved     repository:
+343 silly resolved      { type: 'git',
+343 silly resolved        url: 'git://github.com/chad3814/CSSStyleDeclaration.git' },
+343 silly resolved     bugs: { url: 'https://github.com/chad3814/CSSStyleDeclaration/issues' },
+343 silly resolved     directories: { lib: './lib' },
+343 silly resolved     main: './lib/CSSStyleDeclaration.js',
+343 silly resolved     dependencies: { cssom: '0.3.x' },
+343 silly resolved     devDependencies: { nodeunit: '~0.8.0' },
+343 silly resolved     scripts: { test: 'nodeunit tests' },
+343 silly resolved     licenses: [ [Object] ],
+343 silly resolved     readme: 'CSSStyleDeclaration\n===================\n\nCSSStyleDeclaration is a work-a-like to the CSSStyleDeclaration class in Nikita Vasilyev\'s [CSSOM](https://github.com/NV/CSSOM). I made it so that when using [jQuery in node](https://github.com/tmtk75/node-jquery) setting css attributes via $.fn.css() would work. node-jquery uses [jsdom](https://github.com/tmpvar/jsdom) to create a DOM to use in node. jsdom uses CSSOM for styling, and CSSOM\'s implementation of the [CSSStyleDeclaration](http://www.w3.org/TR/DOM-Level-2-Style/css.html#CSS-CSSStyleDeclaration) doesn\'t support [CSS2Properties](http://www.w3.org/TR/DOM-Level-2-Style/css.html#CSS-CSS2Properties), which is how jQuery\'s [$.fn.css()](http://api.jquery.com/css/) operates.\n\n\nWhy not just issue a pull request?\n----\nWell, NV wants to keep CSSOM fast (which I can appreciate) and CSS2Properties aren\'t required by the standard (though every browser has the interface). So I figured the path of least resistence would be to just modify this one class, publish it as a node module (that requires CSSOM) and then make a pull request of jsdom to use it.\n\nHow do I test this code?\n---\n`npm test` should do the trick, assuming you have the dev dependencies installed:\n> ```\n> $ npm test\n>\n> tests\n> ✔ Verify Has Properties\n> ✔ Verify Has Functions\n> ✔ Verify Has Special Properties\n> ✔ Test From Style String\n> ✔ Test From Properties\n> ✔ Test Shorthand Properties\n> ✔ Test width and height Properties and null and empty strings\n> ✔ Test Implicit Properties\n> ```\n\n',
+343 silly resolved     readmeFilename: 'README.md',
+343 silly resolved     _id: 'cssstyle@0.2.11',
+343 silly resolved     _from: 'cssstyle@~0.2.6' },
+343 silly resolved   { name: 'cssom',
+343 silly resolved     description: 'CSS Object Model implementation and CSS parser',
+343 silly resolved     keywords: [ 'CSS', 'CSSOM', 'parser', 'styleSheet' ],
+343 silly resolved     version: '0.3.0',
+343 silly resolved     homepage: 'https://github.com/NV/CSSOM',
+343 silly resolved     author: { name: 'Nikita Vasilyev', email: 'me@elv1s.ru' },
+343 silly resolved     repository: { type: 'git', url: 'git://github.com/NV/CSSOM.git' },
+343 silly resolved     bugs: { url: 'https://github.com/NV/CSSOM/issues' },
+343 silly resolved     main: './lib/index.js',
+343 silly resolved     devDependencies: { jake: '~0.7.3' },
+343 silly resolved     license: { type: 'MIT', url: 'http://creativecommons.org/licenses/MIT/' },
+343 silly resolved     scripts: { prepublish: 'jake lib/index.js' },
+343 silly resolved     readme: '# CSSOM\n\nCSSOM.js is a CSS parser written in pure JavaScript. It also a partial implementation of [CSS Object Model](http://dev.w3.org/csswg/cssom/). \n\n    CSSOM.parse("body {color: black}")\n    -> {\n      cssRules: [\n        {\n          selectorText: "body",\n          style: {\n            0: "color",\n            color: "black",\n            length: 1\n          }\n        }\n      ]\n    }\n\n\n## [Parser demo](http://nv.github.com/CSSOM/docs/parse.html)\n\nWorks well in Google Chrome 6+, Safari 5+, Firefox 3.6+, Opera 10.63+.\nDoesn\'t work in IE < 9 because of unsupported getters/setters.\n\nTo use CSSOM.js in the browser you might want to build a one-file version with [Jake](http://github.com/mde/jake):\n\n    ➤ jake\n    build/CSSOM.js is done\n\nTo use it with Node.js:\n\n    npm install cssom\n\n## [Specs](http://nv.github.com/CSSOM/spec/)\n\n## [Who uses CSSOM.js](https://github.com/NV/CSSOM/wiki/Who-uses-CSSOM.js)\n',
+343 silly resolved     readmeFilename: 'README.mdown',
+343 silly resolved     _id: 'cssom@0.3.0',
+343 silly resolved     _from: 'cssom@~0.3.0' },
+343 silly resolved   { name: 'xmlhttprequest',
+343 silly resolved     description: 'XMLHttpRequest for Node',
+343 silly resolved     version: '1.6.0',
+343 silly resolved     author: { name: 'Dan DeFelippi', url: 'http://driverdan.com' },
+343 silly resolved     keywords: [ 'xhr', 'ajax' ],
+343 silly resolved     licenses: [ [Object] ],
+343 silly resolved     repository:
+343 silly resolved      { type: 'git',
+343 silly resolved        url: 'git://github.com/driverdan/node-XMLHttpRequest.git' },
+343 silly resolved     bugs: { url: 'http://github.com/driverdan/node-XMLHttpRequest/issues' },
+343 silly resolved     engines: { node: '>=0.4.0' },
+343 silly resolved     directories: { lib: './lib', example: './example' },
+343 silly resolved     main: './lib/XMLHttpRequest.js',
+343 silly resolved     readme: '# node-XMLHttpRequest #\n\nnode-XMLHttpRequest is a wrapper for the built-in http client to emulate the\nbrowser XMLHttpRequest object.\n\nThis can be used with JS designed for browsers to improve reuse of code and\nallow the use of existing libraries.\n\nNote: This library currently conforms to [XMLHttpRequest 1](http://www.w3.org/TR/XMLHttpRequest/). Version 2.0 will target [XMLHttpRequest Level 2](http://www.w3.org/TR/XMLHttpRequest2/).\n\n## Usage ##\n\nHere\'s how to include the module in your project and use as the browser-based\nXHR object.\n\n\tvar XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;\n\tvar xhr = new XMLHttpRequest();\n\nNote: use the lowercase string "xmlhttprequest" in your require(). On\ncase-sensitive systems (eg Linux) using uppercase letters won\'t work.\n\n## Versions ##\n\nPrior to 1.4.0 version numbers were arbitrary. From 1.4.0 on they conform to\nthe standard major.minor.bugfix. 1.x shouldn\'t necessarily be considered\nstable just because it\'s above 0.x.\n\nSince the XMLHttpRequest API is stable this library\'s API is stable as\nwell. Major version numbers indicate significant core code changes.\nMinor versions indicate minor core code changes or better conformity to\nthe W3C spec.\n\n## License ##\n\nMIT license. See LICENSE for full details.\n\n## Supports ##\n\n* Async and synchronous requests\n* GET, POST, PUT, and DELETE requests\n* All spec methods (open, send, abort, getRequestHeader,\n  getAllRequestHeaders, event methods)\n* Requests to all domains\n\n## Known Issues / Missing Features ##\n\nFor a list of open issues or to report your own visit the [github issues\npage](https://github.com/driverdan/node-XMLHttpRequest/issues).\n\n* Local file access may have unexpected results for non-UTF8 files\n* Synchronous requests don\'t set headers properly\n* Synchronous requests freeze node while waiting for response (But that\'s what you want, right? Stick with async!).\n* Some events are missing, such as abort\n* getRequestHeader is case-sensitive\n* Cookies aren\'t persisted between requests\n* Missing XML support\n* Missing basic auth\n',
+343 silly resolved     readmeFilename: 'README.md',
+343 silly resolved     homepage: 'https://github.com/driverdan/node-XMLHttpRequest',
+343 silly resolved     _id: 'xmlhttprequest@1.6.0',
+343 silly resolved     _from: 'xmlhttprequest@>=1.5.0' },
+343 silly resolved   { name: 'contextify',
+343 silly resolved     version: '0.1.7',
+343 silly resolved     description: 'Turn an object into a persistent execution context.',
+343 silly resolved     author: { name: 'Brian McDaniel', email: 'brianmcd05@gmail.com' },
+343 silly resolved     contributors: [ [Object] ],
+343 silly resolved     keywords: [ 'context', 'vm' ],
+343 silly resolved     repository:
+343 silly resolved      { type: 'git',
+343 silly resolved        url: 'https://github.com/brianmcd/contextify.git' },
+343 silly resolved     main: './lib/contextify',
+343 silly resolved     scripts: { test: 'nodeunit test/', install: 'node-gyp rebuild' },
+343 silly resolved     engines: { node: '>=0.4.0' },
+343 silly resolved     licenses: [ [Object] ],
+343 silly resolved     dependencies: { bindings: '*', nan: '~0.8.0' },
+343 silly resolved     devDependencies: { nodeunit: '>=0.5.x' },
+343 silly resolved     gypfile: true,
+343 silly resolved     readme: '# Contextify\n\nFor Windows issues, see here: https://github.com/brianmcd/contextify/wiki/Windows-Installation-Guide\n\nPlease add to the wiki if you find new issues/solutions.\n\nTurn an object into a V8 execution context.  A contextified object acts as the global \'this\' when executing scripts in its context.  Contextify adds 3 methods to the contextified object: run(code, filename), getGlobal(), and dispose().  The main difference between Contextify and Node\'s vm methods is that Contextify allows asynchronous functions to continue executing in the Contextified object\'s context.  See vm vs. Contextify below for more discussion.\n\n## Examples\n```javascript\nvar Contextify = require(\'contextify\');\nvar sandbox = { console : console, prop1 : \'prop1\'};\nContextify(sandbox);\nsandbox.run(\'console.log(prop1);\');\nsandbox.dispose(); // free the resources allocated for the context.\n```\n\n```javascript\nvar sandbox = Contextify(); // returns an empty contextified object.\nsandbox.run(\'var x = 3;\');\nconsole.log(sandbox.x); // prints 3\nsandbox.dispose();\n```\n\n```javascript\nvar sandbox = Contextify({setTimeout : setTimeout});\nsandbox.run("setTimeout(function () { x = 3; }, 5);");\nconsole.log(sandbox.x); // prints undefined\nsetTimeout(function () {\n    console.log(sandbox.x); // prints 3\n    sandbox.dispose();\n}, 10);\n```\n## Details\n\n**Contextify([sandbox])**\n\n    sandbox - The object to contextify, which will be modified as described below\n              If no sandbox is specified, an empty object will be allocated and used instead.\n\n    Returns the contextified object.  It doesn\'t make a copy, so if you already have a reference\n    to the sandbox, you don\'t need to catch the return value.\n\nA Contextified object has 2 methods added to it:\n\n**run(code, [filename])**\n\n    code - string containing JavaScript to execute\n    filename  - an optional filename for debugging.\n\n    Runs the code in the Contextified object\'s context.\n\n**getGlobal()**\n\nReturns the actual global object for the V8 context.  The global object is initialized with interceptors (discussed below) which forward accesses on it to the contextified object.  This means the contextified object acts like the global object in most cases.  Sometimes, though, you need to make a reference to the actual global object.\n\nFor example:\n\n```javascript\nvar window = Contextify({console : console});\nwindow.window = window;\nwindow.run("console.log(window === this);");\n// prints false.\n```\n\n```javascript\nvar window = Contextify({console : console});\nwindow.window = window.getGlobal();\nwindow.run("console.log(window === this);");\n// prints true\n```\n\nThe global object returned by getGlobal() can be treated like the contextified sandbox object, except that defining getters/setters will not work on it.  Define getters and setters on the actual sandbox object instead.\n\n**dispose()**\n\nFrees the memory allocated for the underlying V8 context.  If you don\'t call this when you\'re done, the V8 context memory will leak, as will the sandbox memory, since the context\'s global stores a strong reference to the sandbox object.  You can still use your sandbox object after calling dispose(), but it\'s unsafe to use a global previously returned from getGlobal().  run, getGlobal, and dispose will be removed from the sandbox object.\n\n## Install\n\n    npm install contextify\n\n## require(\'vm\') vs. Contextify\n\nNode\'s vm functions (runInContext etc) work by copying the values from the sandbox object onto a context\'s global object, executing the passed in script, then copying the results back.  This means that scripts that create asynchronous functions (using mechanisms like setTimeout) won\'t have see the results of executing those functions, since the copying in/out only occurs during an explicit call to runInContext and friends.  \n\nContextify creates a V8 context, and uses interceptors (see: http://code.google.com/apis/v8/embed.html#interceptors) to forward global object accesses to the sandbox object.  This means there is no copying in or out, so asynchronous functions have the expected effect on the sandbox object.  \n\n## Tests\n\nTesting is done with nodeunit.  Run the tests with\n\n    nodeunit test/\n\nOutput: \n\n    OK: 92 assertions (27ms)\n\n\n## Building\n\n    node-waf configure build\n\n## Acknowledgments\n\nInspiration taken from Assaf\'s Zombie.js context solution: https://github.com/assaf/zombie\n',
+343 silly resolved     readmeFilename: 'README.md',
+343 silly resolved     bugs: { url: 'https://github.com/brianmcd/contextify/issues' },
+343 silly resolved     homepage: 'https://github.com/brianmcd/contextify',
+343 silly resolved     _id: 'contextify@0.1.7',
+343 silly resolved     _from: 'contextify@~0.1.5' },
+343 silly resolved   { name: 'htmlparser2',
+343 silly resolved     description: 'Fast & forgiving HTML/XML/RSS parser',
+343 silly resolved     version: '3.7.1',
+343 silly resolved     author: { name: 'Felix Boehm', email: 'me@feedic.com' },
+343 silly resolved     keywords: [ 'html', 'parser', 'streams', 'xml', 'dom', 'rss', 'feed', 'atom' ],
+343 silly resolved     repository: { type: 'git', url: 'git://github.com/fb55/htmlparser2.git' },
+343 silly resolved     bugs: { url: 'http://github.com/fb55/htmlparser2/issues' },
+343 silly resolved     directories: { lib: 'lib/' },
+343 silly resolved     main: 'lib/index.js',
+343 silly resolved     scripts:
+343 silly resolved      { lcov: 'istanbul cover _mocha --report lcovonly -- -R spec',
+343 silly resolved        coveralls: 'npm run lint && npm run lcov && (cat coverage/lcov.info | coveralls || exit 0)',
+343 silly resolved        test: 'mocha && npm run lint',
+343 silly resolved        lint: 'jshint {lib,test}/*.js test/*/*.js' },
+343 silly resolved     dependencies:
+343 silly resolved      { domhandler: '2.2',
+343 silly resolved        domutils: '1.4',
+343 silly resolved        domelementtype: '1',
+343 silly resolved        'readable-stream': '1.1',
+343 silly resolved        entities: '1.0' },
+343 silly resolved     devDependencies:
+343 silly resolved      { mocha: '1',
+343 silly resolved        'mocha-lcov-reporter': '*',
+343 silly resolved        coveralls: '*',
+343 silly resolved        istanbul: '*',
+343 silly resolved        jshint: '2' },
+343 silly resolved     license: 'MIT',
+343 silly resolved     jshintConfig:
+343 silly resolved      { eqeqeq: true,
+343 silly resolved        freeze: true,
+343 silly resolved        latedef: 'nofunc',
+343 silly resolved        noarg: true,
+343 silly resolved        nonbsp: true,
+343 silly resolved        quotmark: 'double',
+343 silly resolved        undef: true,
+343 silly resolved        unused: true,
+343 silly resolved        trailing: true,
+343 silly resolved        eqnull: true,
+343 silly resolved        proto: true,
+343 silly resolved        smarttabs: true,
+343 silly resolved        node: true,
+343 silly resolved        globals: [Object] },
+343 silly resolved     readme: '#htmlparser2 [![NPM version](http://img.shields.io/npm/v/htmlparser2.svg)](https://npmjs.org/package/htmlparser2)  [![Downloads](https://img.shields.io/npm/dm/htmlparser2.svg)](https://npmjs.org/package/htmlparser2)\n\n[![Build Status](http://img.shields.io/travis/fb55/htmlparser2.svg)](http://travis-ci.org/fb55/htmlparser2) [![Coverage](http://img.shields.io/coveralls/fb55/htmlparser2.svg)](https://coveralls.io/r/fb55/htmlparser2)\n\nA forgiving HTML/XML/RSS parser written in JS for NodeJS. The parser can handle streams (chunked data) and supports custom handlers for writing custom DOMs/output.\n\n##Installing\n\tnpm install htmlparser2\n\t\nA live demo of htmlparser2 is available at http://demos.forbeslindesay.co.uk/htmlparser2/\n\n##Usage\n\n```javascript\nvar htmlparser = require("htmlparser2");\nvar parser = new htmlparser.Parser({\n\tonopentag: function(name, attribs){\n\t\tif(name === "script" && attribs.type === "text/javascript"){\n\t\t\tconsole.log("JS! Hooray!");\n\t\t}\n\t},\n\tontext: function(text){\n\t\tconsole.log("-->", text);\n\t},\n\tonclosetag: function(tagname){\n\t\tif(tagname === "script"){\n\t\t\tconsole.log("That\'s it?!");\n\t\t}\n\t}\n});\nparser.write("Xyz <script type=\'text/javascript\'>var foo = \'<<bar>>\';</ script>");\nparser.end();\n```\n\nOutput (simplified):\n\n```javascript\n--> Xyz \nJS! Hooray!\n--> var foo = \'<<bar>>\';\nThat\'s it?!\n```\n\nRead more about the parser in the [wiki](https://github.com/fb55/htmlparser2/wiki/Parser-options).\n\n##Get a DOM\nThe `DomHandler` (known as `DefaultHandler` in the original `htmlparser` module) produces a DOM (document object model) that can be manipulated using the [`DomUtils`](https://github.com/fb55/DomUtils) helper.\n\nThe `DomHandler`, while still bundled with this module, was moved to its [own module](https://github.com/fb55/domhandler). Have a look at it for further information.\n\n##Parsing RSS/RDF/Atom Feeds\n\n```javascript\nnew htmlparser.FeedHandler(function(<error> error, <object> feed){\n    ...\n});\n```\n\n##Performance\n\nAfter having some artificial benchmarks for some time, __@AndreasMadsen__ published his [`htmlparser-benchmark`](https://github.com/AndreasMadsen/htmlparser-benchmark), which benchmarks HTML parses based on real-world websites.\n\nAt the time of writing, the latest versions of all supported parsers show the following performance characteristics on [Travis CI](https://travis-ci.org/AndreasMadsen/htmlparser-benchmark/builds/10805007) (please note that Travis doesn\'t guarantee equal conditions for all tests):\n\n```\ngumbo-parser   : 34.9208 ms/file ± 21.4238\nhtml-parser    : 24.8224 ms/file ± 15.8703\nhtml5          : 419.597 ms/file ± 264.265\nhtmlparser     : 60.0722 ms/file ± 384.844\nhtmlparser2-dom: 12.0749 ms/file ± 6.49474\nhtmlparser2    : 7.49130 ms/file ± 5.74368\nhubbub         : 30.4980 ms/file ± 16.4682\nlibxmljs       : 14.1338 ms/file ± 18.6541\nparse5         : 22.0439 ms/file ± 15.3743\nsax            : 49.6513 ms/file ± 26.6032\n```\n\n##How is this different from [node-htmlparser](https://github.com/tautologistics/node-htmlparser)?\nThis is a fork of the `htmlparser` module. The main difference is that this is intended to be used only with node (it runs on other platforms using [browserify](https://github.com/substack/node-browserify)). `htmlparser2` was rewritten multiple times and, while it maintains an API that\'s compatible with `htmlparser` in most cases, the projects don\'t share any code anymore.\n\nThe parser now provides a callback interface close to [sax.js](https://github.com/isaacs/sax-js) (originally targeted at [readabilitySAX](https://github.com/fb55/readabilitysax)). As a result, old handlers won\'t work anymore.\n\nThe `DefaultHandler` and the `RssHandler` were renamed to clarify their purpose (to `DomHandler` and `FeedHandler`). The old names are still available when requiring `htmlparser2`, so your code should work as expected.\n',
+343 silly resolved     readmeFilename: 'README.md',
+343 silly resolved     homepage: 'https://github.com/fb55/htmlparser2',
+343 silly resolved     _id: 'htmlparser2@3.7.1',
+343 silly resolved     _from: 'htmlparser2@>= 3.1.5 <4' },
+343 silly resolved   { name: 'request',
+343 silly resolved     description: 'Simplified HTTP request client.',
+343 silly resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+343 silly resolved     version: '2.34.0',
+343 silly resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+343 silly resolved     repository: { type: 'git', url: 'http://github.com/mikeal/request.git' },
+343 silly resolved     bugs: { url: 'http://github.com/mikeal/request/issues' },
+343 silly resolved     license: 'Apache, Version 2.0',
+343 silly resolved     engines: [ 'node >= 0.8.0' ],
+343 silly resolved     main: 'index.js',
+343 silly resolved     dependencies:
+343 silly resolved      { qs: '~0.6.0',
+343 silly resolved        'json-stringify-safe': '~5.0.0',
+343 silly resolved        'forever-agent': '~0.5.0',
+343 silly resolved        'node-uuid': '~1.4.0',
+343 silly resolved        mime: '~1.2.9',
+343 silly resolved        'tough-cookie': '>=0.12.0',
+343 silly resolved        'form-data': '~0.1.0',
+343 silly resolved        'tunnel-agent': '~0.3.0',
+343 silly resolved        'http-signature': '~0.10.0',
+343 silly resolved        'oauth-sign': '~0.3.0',
+343 silly resolved        hawk: '~1.0.0',
+343 silly resolved        'aws-sign2': '~0.5.0' },
+343 silly resolved     optionalDependencies:
+343 silly resolved      { 'tough-cookie': '>=0.12.0',
+343 silly resolved        'form-data': '~0.1.0',
+343 silly resolved        'tunnel-agent': '~0.3.0',
+343 silly resolved        'http-signature': '~0.10.0',
+343 silly resolved        'oauth-sign': '~0.3.0',
+343 silly resolved        hawk: '~1.0.0',
+343 silly resolved        'aws-sign2': '~0.5.0' },
+343 silly resolved     scripts: { test: 'node tests/run.js' },
+343 silly resolved     readme: '# Request -- Simplified HTTP client\n\n[![NPM](https://nodei.co/npm/request.png)](https://nodei.co/npm/request/)\n\n## Super simple to use\n\nRequest is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.\n\n```javascript\nvar request = require(\'request\');\nrequest(\'http://www.google.com\', function (error, response, body) {\n  if (!error && response.statusCode == 200) {\n    console.log(body) // Print the google web page.\n  }\n})\n```\n\n## Streaming\n\nYou can stream any response to a file stream.\n\n```javascript\nrequest(\'http://google.com/doodle.png\').pipe(fs.createWriteStream(\'doodle.png\'))\n```\n\nYou can also stream a file to a PUT or POST request. This method will also check the file extension against a mapping of file extensions to content-types (in this case `application/json`) and use the proper `content-type` in the PUT request (if the headers don’t already provide one).\n\n```javascript\nfs.createReadStream(\'file.json\').pipe(request.put(\'http://mysite.com/obj.json\'))\n```\n\nRequest can also `pipe` to itself. When doing so, `content-type` and `content-length` are preserved in the PUT headers.\n\n```javascript\nrequest.get(\'http://google.com/img.png\').pipe(request.put(\'http://mysite.com/img.png\'))\n```\n\nNow let’s get fancy.\n\n```javascript\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    if (req.method === \'PUT\') {\n      req.pipe(request.put(\'http://mysite.com/doodle.png\'))\n    } else if (req.method === \'GET\' || req.method === \'HEAD\') {\n      request.get(\'http://mysite.com/doodle.png\').pipe(resp)\n    }\n  }\n})\n```\n\nYou can also `pipe()` from `http.ServerRequest` instances, as well as to `http.ServerResponse` instances. The HTTP method, headers, and entity-body data will be sent. Which means that, if you don\'t really care about security, you can do:\n\n```javascript\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    var x = request(\'http://mysite.com/doodle.png\')\n    req.pipe(x)\n    x.pipe(resp)\n  }\n})\n```\n\nAnd since `pipe()` returns the destination stream in ≥ Node 0.5.x you can do one line proxying. :)\n\n```javascript\nreq.pipe(request(\'http://mysite.com/doodle.png\')).pipe(resp)\n```\n\nAlso, none of this new functionality conflicts with requests previous features, it just expands them.\n\n```javascript\nvar r = request.defaults({\'proxy\':\'http://localproxy.com\'})\n\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    r.get(\'http://google.com/doodle.png\').pipe(resp)\n  }\n})\n```\n\nYou can still use intermediate proxies, the requests will still follow HTTP forwards, etc.\n\n## UNIX Socket \n\n`request` supports the `unix://` protocol for all requests. The path is assumed to be absolute to the root of the host file system. \n\nHTTP paths are extracted from the supplied URL by testing each level of the full URL against net.connect for a socket response.\n\nThus the following request will GET `/httppath` from the HTTP server listening on `/tmp/unix.socket`\n\n```javascript\nrequest.get(\'unix://tmp/unix.socket/httppath\')\n```\n\n## Forms\n\n`request` supports `application/x-www-form-urlencoded` and `multipart/form-data` form uploads. For `multipart/related` refer to the `multipart` API.\n\nURL-encoded forms are simple.\n\n```javascript\nrequest.post(\'http://service.com/upload\', {form:{key:\'value\'}})\n// or\nrequest.post(\'http://service.com/upload\').form({key:\'value\'})\n```\n\nFor `multipart/form-data` we use the [form-data](https://github.com/felixge/node-form-data) library by [@felixge](https://github.com/felixge). You don’t need to worry about piping the form object or setting the headers, `request` will handle that for you.\n\n```javascript\nvar r = request.post(\'http://service.com/upload\')\nvar form = r.form()\nform.append(\'my_field\', \'my_value\')\nform.append(\'my_buffer\', new Buffer([1, 2, 3]))\nform.append(\'my_file\', fs.createReadStream(path.join(__dirname, \'doodle.png\'))\nform.append(\'remote_file\', request(\'http://google.com/doodle.png\'))\n```\n\n## HTTP Authentication\n\n```javascript\nrequest.get(\'http://some.server.com/\').auth(\'username\', \'password\', false);\n// or\nrequest.get(\'http://some.server.com/\', {\n  \'auth\': {\n    \'user\': \'username\',\n    \'pass\': \'password\',\n    \'sendImmediately\': false\n  }\n});\n```\n\nIf passed as an option, `auth` should be a hash containing values `user` || `username`, `password` || `pass`, and `sendImmediately` (optional).  The method form takes parameters `auth(username, password, sendImmediately)`.\n\n`sendImmediately` defaults to `true`, which causes a basic authentication header to be sent.  If `sendImmediately` is `false`, then `request` will retry with a proper authentication header after receiving a `401` response from the server (which must contain a `WWW-Authenticate` header indicating the required authentication method).\n\nDigest authentication is supported, but it only works with `sendImmediately` set to `false`; otherwise `request` will send basic authentication on the initial request, which will probably cause the request to fail.\n\n## OAuth Signing\n\n```javascript\n// Twitter OAuth\nvar qs = require(\'querystring\')\n  , oauth =\n    { callback: \'http://mysite.com/callback/\'\n    , consumer_key: CONSUMER_KEY\n    , consumer_secret: CONSUMER_SECRET\n    }\n  , url = \'https://api.twitter.com/oauth/request_token\'\n  ;\nrequest.post({url:url, oauth:oauth}, function (e, r, body) {\n  // Ideally, you would take the body in the response\n  // and construct a URL that a user clicks on (like a sign in button).\n  // The verifier is only available in the response after a user has\n  // verified with twitter that they are authorizing your app.\n  var access_token = qs.parse(body)\n    , oauth =\n      { consumer_key: CONSUMER_KEY\n      , consumer_secret: CONSUMER_SECRET\n      , token: access_token.oauth_token\n      , verifier: access_token.oauth_verifier\n      }\n    , url = \'https://api.twitter.com/oauth/access_token\'\n    ;\n  request.post({url:url, oauth:oauth}, function (e, r, body) {\n    var perm_token = qs.parse(body)\n      , oauth =\n        { consumer_key: CONSUMER_KEY\n        , consumer_secret: CONSUMER_SECRET\n        , token: perm_token.oauth_token\n        , token_secret: perm_token.oauth_token_secret\n        }\n      , url = \'https://api.twitter.com/1.1/users/show.json?\'\n      , params =\n        { screen_name: perm_token.screen_name\n        , user_id: perm_token.user_id\n        }\n      ;\n    url += qs.stringify(params)\n    request.get({url:url, oauth:oauth, json:true}, function (e, r, user) {\n      console.log(user)\n    })\n  })\n})\n```\n\n### Custom HTTP Headers\n\nHTTP Headers, such as `User-Agent`, can be set in the `options` object.\nIn the example below, we call the github API to find out the number\nof stars and forks for the request repository. This requires a\ncustom `User-Agent` header as well as https.\n\n```javascript\nvar request = require(\'request\');\n\nvar options = {\n\turl: \'https://api.github.com/repos/mikeal/request\',\n\theaders: {\n\t\t\'User-Agent\': \'request\'\n\t}\n};\n\nfunction callback(error, response, body) {\n\tif (!error && response.statusCode == 200) {\n\t\tvar info = JSON.parse(body);\n\t\tconsole.log(info.stargazers_count + " Stars");\n\t\tconsole.log(info.forks_count + " Forks");\n\t}\n}\n\nrequest(options, callback);\n```\n\n### request(options, callback)\n\nThe first argument can be either a `url` or an `options` object. The only required option is `uri`; all others are optional.\n\n* `uri` || `url` - fully qualified uri or a parsed url object from `url.parse()`\n* `qs` - object containing querystring values to be appended to the `uri`\n* `method` - http method (default: `"GET"`)\n* `headers` - http headers (default: `{}`)\n* `body` - entity body for PATCH, POST and PUT requests. Must be a `Buffer` or `String`.\n* `form` - when passed an object, this sets `body` to a querystring representation of value, and adds `Content-type: application/x-www-form-urlencoded; charset=utf-8` header. When passed no options, a `FormData` instance is returned (and is piped to request).\n* `auth` - A hash containing values `user` || `username`, `password` || `pass`, and `sendImmediately` (optional).  See documentation above.\n* `json` - sets `body` but to JSON representation of value and adds `Content-type: application/json` header.  Additionally, parses the response body as JSON.\n* `multipart` - (experimental) array of objects which contains their own headers and `body` attribute. Sends `multipart/related` request. See example below.\n* `followRedirect` - follow HTTP 3xx responses as redirects (default: `true`)\n* `followAllRedirects` - follow non-GET HTTP 3xx responses as redirects (default: `false`)\n* `maxRedirects` - the maximum number of redirects to follow (default: `10`)\n* `encoding` - Encoding to be used on `setEncoding` of response data. If `null`, the `body` is returned as a `Buffer`.\n* `pool` - A hash object containing the agents for these requests. If omitted, the request will use the global pool (which is set to node\'s default `maxSockets`)\n* `pool.maxSockets` - Integer containing the maximum amount of sockets in the pool.\n* `timeout` - Integer containing the number of milliseconds to wait for a request to respond before aborting the request\n* `proxy` - An HTTP proxy to be used. Supports proxy Auth with Basic Auth, identical to support for the `url` parameter (by embedding the auth info in the `uri`)\n* `oauth` - Options for OAuth HMAC-SHA1 signing. See documentation above.\n* `hawk` - Options for [Hawk signing](https://github.com/hueniverse/hawk). The `credentials` key must contain the necessary signing info, [see hawk docs for details](https://github.com/hueniverse/hawk#usage-example).\n* `strictSSL` - If `true`, requires SSL certificates be valid. **Note:** to use your own certificate authority, you need to specify an agent that was created with that CA as an option.\n* `jar` - If `true`, remember cookies for future use (or define your custom cookie jar; see examples section)\n* `aws` - `object` containing AWS signing information. Should have the properties `key`, `secret`. Also requires the property `bucket`, unless you’re specifying your `bucket` as part of the path, or the request doesn’t use a bucket (i.e. GET Services)\n* `httpSignature` - Options for the [HTTP Signature Scheme](https://github.com/joyent/node-http-signature/blob/master/http_signing.md) using [Joyent\'s library](https://github.com/joyent/node-http-signature). The `keyId` and `key` properties must be specified. See the docs for other options.\n* `localAddress` - Local interface to bind for network connections.\n\n\nThe callback argument gets 3 arguments: \n\n1. An `error` when applicable (usually from [`http.ClientRequest`](http://nodejs.org/api/http.html#http_class_http_clientrequest) object)\n2. An [`http.IncomingMessage`](http://nodejs.org/api/http.html#http_http_incomingmessage) object\n3. The third is the `response` body (`String` or `Buffer`, or JSON object if the `json` option is supplied)\n\n## Convenience methods\n\nThere are also shorthand methods for different HTTP METHODs and some other conveniences.\n\n### request.defaults(options)\n\nThis method returns a wrapper around the normal request API that defaults to whatever options you pass in to it.\n\n### request.put\n\nSame as `request()`, but defaults to `method: "PUT"`.\n\n```javascript\nrequest.put(url)\n```\n\n### request.patch\n\nSame as `request()`, but defaults to `method: "PATCH"`.\n\n```javascript\nrequest.patch(url)\n```\n\n### request.post\n\nSame as `request()`, but defaults to `method: "POST"`.\n\n```javascript\nrequest.post(url)\n```\n\n### request.head\n\nSame as request() but defaults to `method: "HEAD"`.\n\n```javascript\nrequest.head(url)\n```\n\n### request.del\n\nSame as `request()`, but defaults to `method: "DELETE"`.\n\n```javascript\nrequest.del(url)\n```\n\n### request.get\n\nSame as `request()` (for uniformity).\n\n```javascript\nrequest.get(url)\n```\n### request.cookie\n\nFunction that creates a new cookie.\n\n```javascript\nrequest.cookie(\'cookie_string_here\')\n```\n### request.jar\n\nFunction that creates a new cookie jar.\n\n```javascript\nrequest.jar()\n```\n\n\n## Examples:\n\n```javascript\n  var request = require(\'request\')\n    , rand = Math.floor(Math.random()*100000000).toString()\n    ;\n  request(\n    { method: \'PUT\'\n    , uri: \'http://mikeal.iriscouch.com/testjs/\' + rand\n    , multipart:\n      [ { \'content-type\': \'application/json\'\n        ,  body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n        }\n      , { body: \'I am an attachment\' }\n      ]\n    }\n  , function (error, response, body) {\n      if(response.statusCode == 201){\n        console.log(\'document saved as: http://mikeal.iriscouch.com/testjs/\'+ rand)\n      } else {\n        console.log(\'error: \'+ response.statusCode)\n        console.log(body)\n      }\n    }\n  )\n```\n\nCookies are disabled by default (else, they would be used in subsequent requests). To enable cookies, set `jar` to `true` (either in `defaults` or `options`).\n\n```javascript\nvar request = request.defaults({jar: true})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\n\nTo use a custom cookie jar (instead `request`’s global cookie jar), set `jar` to an instance of `request.jar()` (either in `defaults` or `options`)\n\n```javascript\nvar j = request.jar()\nvar request = request.defaults({jar:j})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\n\nOR\n\n```javascript\nvar j = request.jar()\nvar cookie = request.cookie(\'your_cookie_here\')\nj.setCookie(cookie, uri);\nrequest({url: \'http://www.google.com\', jar: j}, function () {\n  request(\'http://images.google.com\')\n})\n```\n',
+343 silly resolved     readmeFilename: 'README.md',
+343 silly resolved     homepage: 'https://github.com/mikeal/request',
+343 silly resolved     _id: 'request@2.34.0',
+343 silly resolved     _from: 'request@2.x' } ]
+344 info install nwmatcher@1.3.1 into /opt/cgminer/node_modules/jsdom
+345 info install cssstyle@0.2.11 into /opt/cgminer/node_modules/jsdom
+346 info install cssom@0.3.0 into /opt/cgminer/node_modules/jsdom
+347 info install xmlhttprequest@1.6.0 into /opt/cgminer/node_modules/jsdom
+348 info install contextify@0.1.7 into /opt/cgminer/node_modules/jsdom
+349 info install htmlparser2@3.7.1 into /opt/cgminer/node_modules/jsdom
+350 info install request@2.34.0 into /opt/cgminer/node_modules/jsdom
+351 info installOne nwmatcher@1.3.1
+352 info installOne cssstyle@0.2.11
+353 info installOne cssom@0.3.0
+354 info installOne xmlhttprequest@1.6.0
+355 info installOne contextify@0.1.7
+356 info installOne htmlparser2@3.7.1
+357 info installOne request@2.34.0
+358 info /opt/cgminer/node_modules/jsdom/node_modules/nwmatcher unbuild
+359 info /opt/cgminer/node_modules/jsdom/node_modules/cssstyle unbuild
+360 info /opt/cgminer/node_modules/jsdom/node_modules/cssom unbuild
+361 info /opt/cgminer/node_modules/jsdom/node_modules/xmlhttprequest unbuild
+362 info /opt/cgminer/node_modules/jsdom/node_modules/contextify unbuild
+363 info /opt/cgminer/node_modules/jsdom/node_modules/htmlparser2 unbuild
+364 info /opt/cgminer/node_modules/jsdom/node_modules/request unbuild
+365 verbose tar unpack /root/.npm/nwmatcher/1.3.1/package.tgz
+366 silly lockFile f8ea4f4b-les-jsdom-node-modules-nwmatcher tar:///opt/cgminer/node_modules/jsdom/node_modules/nwmatcher
+367 verbose lock tar:///opt/cgminer/node_modules/jsdom/node_modules/nwmatcher /root/.npm/f8ea4f4b-les-jsdom-node-modules-nwmatcher.lock
+368 silly lockFile 9f042244--npm-nwmatcher-1-3-1-package-tgz tar:///root/.npm/nwmatcher/1.3.1/package.tgz
+369 verbose lock tar:///root/.npm/nwmatcher/1.3.1/package.tgz /root/.npm/9f042244--npm-nwmatcher-1-3-1-package-tgz.lock
+370 verbose tar unpack /root/.npm/cssstyle/0.2.11/package.tgz
+371 silly lockFile cb449d39-ules-jsdom-node-modules-cssstyle tar:///opt/cgminer/node_modules/jsdom/node_modules/cssstyle
+372 verbose lock tar:///opt/cgminer/node_modules/jsdom/node_modules/cssstyle /root/.npm/cb449d39-ules-jsdom-node-modules-cssstyle.lock
+373 silly lockFile ed9d1abe--npm-cssstyle-0-2-11-package-tgz tar:///root/.npm/cssstyle/0.2.11/package.tgz
+374 verbose lock tar:///root/.npm/cssstyle/0.2.11/package.tgz /root/.npm/ed9d1abe--npm-cssstyle-0-2-11-package-tgz.lock
+375 verbose tar unpack /root/.npm/cssom/0.3.0/package.tgz
+376 silly lockFile 0d2f07e6-modules-jsdom-node-modules-cssom tar:///opt/cgminer/node_modules/jsdom/node_modules/cssom
+377 verbose lock tar:///opt/cgminer/node_modules/jsdom/node_modules/cssom /root/.npm/0d2f07e6-modules-jsdom-node-modules-cssom.lock
+378 silly lockFile 259862ea-root-npm-cssom-0-3-0-package-tgz tar:///root/.npm/cssom/0.3.0/package.tgz
+379 verbose lock tar:///root/.npm/cssom/0.3.0/package.tgz /root/.npm/259862ea-root-npm-cssom-0-3-0-package-tgz.lock
+380 verbose tar unpack /root/.npm/xmlhttprequest/1.6.0/package.tgz
+381 silly lockFile aab1cfc0-sdom-node-modules-xmlhttprequest tar:///opt/cgminer/node_modules/jsdom/node_modules/xmlhttprequest
+382 verbose lock tar:///opt/cgminer/node_modules/jsdom/node_modules/xmlhttprequest /root/.npm/aab1cfc0-sdom-node-modules-xmlhttprequest.lock
+383 silly lockFile 78b9a692-xmlhttprequest-1-6-0-package-tgz tar:///root/.npm/xmlhttprequest/1.6.0/package.tgz
+384 verbose lock tar:///root/.npm/xmlhttprequest/1.6.0/package.tgz /root/.npm/78b9a692-xmlhttprequest-1-6-0-package-tgz.lock
+385 verbose tar unpack /root/.npm/contextify/0.1.7/package.tgz
+386 silly lockFile 4f1d9333-es-jsdom-node-modules-contextify tar:///opt/cgminer/node_modules/jsdom/node_modules/contextify
+387 verbose lock tar:///opt/cgminer/node_modules/jsdom/node_modules/contextify /root/.npm/4f1d9333-es-jsdom-node-modules-contextify.lock
+388 silly lockFile 857b3b90-npm-contextify-0-1-7-package-tgz tar:///root/.npm/contextify/0.1.7/package.tgz
+389 verbose lock tar:///root/.npm/contextify/0.1.7/package.tgz /root/.npm/857b3b90-npm-contextify-0-1-7-package-tgz.lock
+390 verbose tar unpack /root/.npm/htmlparser2/3.7.1/package.tgz
+391 silly lockFile aae93e89-s-jsdom-node-modules-htmlparser2 tar:///opt/cgminer/node_modules/jsdom/node_modules/htmlparser2
+392 verbose lock tar:///opt/cgminer/node_modules/jsdom/node_modules/htmlparser2 /root/.npm/aae93e89-s-jsdom-node-modules-htmlparser2.lock
+393 silly lockFile 10a46ca4-pm-htmlparser2-3-7-1-package-tgz tar:///root/.npm/htmlparser2/3.7.1/package.tgz
+394 verbose lock tar:///root/.npm/htmlparser2/3.7.1/package.tgz /root/.npm/10a46ca4-pm-htmlparser2-3-7-1-package-tgz.lock
+395 verbose tar unpack /root/.npm/request/2.34.0/package.tgz
+396 silly lockFile 09b8584d-dules-jsdom-node-modules-request tar:///opt/cgminer/node_modules/jsdom/node_modules/request
+397 verbose lock tar:///opt/cgminer/node_modules/jsdom/node_modules/request /root/.npm/09b8584d-dules-jsdom-node-modules-request.lock
+398 silly lockFile 13913cd1-t-npm-request-2-34-0-package-tgz tar:///root/.npm/request/2.34.0/package.tgz
+399 verbose lock tar:///root/.npm/request/2.34.0/package.tgz /root/.npm/13913cd1-t-npm-request-2-34-0-package-tgz.lock
+400 silly gunzTarPerm modes [ '755', '644' ]
+401 silly gunzTarPerm modes [ '755', '644' ]
+402 silly gunzTarPerm modes [ '755', '644' ]
+403 silly gunzTarPerm modes [ '755', '644' ]
+404 silly gunzTarPerm modes [ '755', '644' ]
+405 silly gunzTarPerm modes [ '755', '644' ]
+406 silly gunzTarPerm modes [ '755', '644' ]
+407 silly gunzTarPerm extractEntry package.json
+408 silly gunzTarPerm extractEntry package.json
+409 silly gunzTarPerm extractEntry package.json
+410 silly gunzTarPerm extractEntry package.json
+411 silly gunzTarPerm extractEntry package.json
+412 silly gunzTarPerm extractEntry package.json
+413 silly gunzTarPerm extractEntry package.json
+414 silly gunzTarPerm extractEntry .npmignore
+415 silly gunzTarPerm extractEntry README
+416 silly gunzTarPerm extractEntry .npmignore
+417 silly gunzTarPerm extractEntry README.md
+418 silly gunzTarPerm extractEntry .npmignore
+419 silly gunzTarPerm extractEntry .gitmodules
+420 silly gunzTarPerm extractEntry README.md
+421 silly gunzTarPerm extractEntry LICENSE
+422 silly gunzTarPerm extractEntry .npmignore
+423 silly gunzTarPerm extractEntry README.md
+424 silly gunzTarPerm extractEntry README.md
+425 silly gunzTarPerm extractEntry LICENSE
+426 silly gunzTarPerm extractEntry .npmignore
+427 silly gunzTarPerm extractEntry README.md
+428 silly gunzTarPerm extractEntry README.md
+429 silly gunzTarPerm extractEntry LICENSE
+430 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+431 silly gunzTarPerm extractEntry README.mdown
+432 silly gunzTarPerm extractEntry autotest.watchr
+433 silly gunzTarPerm extractEntry example/demo.js
+434 silly gunzTarPerm extractEntry LICENSE.txt
+435 silly gunzTarPerm extractEntry binding.gyp
+436 silly gunzTarPerm extractEntry LICENSE
+437 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+438 silly gunzTarPerm extractEntry lib/CSSStyleDeclaration.js
+439 silly gunzTarPerm extractEntry .gitattributes
+440 silly gunzTarPerm extractEntry .travis.yml
+441 silly gunzTarPerm extractEntry dist/lint.log
+442 silly gunzTarPerm extractEntry lib/ender/bridge.js
+443 silly gunzTarPerm extractEntry lib/CSSDocumentRule.js
+444 silly gunzTarPerm extractEntry lib/CSSMediaRule.js
+445 silly gunzTarPerm extractEntry changelog
+446 silly gunzTarPerm extractEntry lib/contextify.js
+447 silly gunzTarPerm extractEntry dns-request.js
+448 silly gunzTarPerm extractEntry index.js
+449 silly gunzTarPerm extractEntry lib/parsers.js
+450 silly gunzTarPerm extractEntry lib/css3-properties/borderImage.js
+451 info reboot@0.0.1 Failed to exec install script
+452 info /opt/cgminer/node_modules/reboot unbuild
+453 info preuninstall reboot@0.0.1
+454 silly gunzTarPerm extractEntry lib/XMLHttpRequest.js
+455 silly gunzTarPerm extractEntry tests/test-constants.js
+456 silly gunzTarPerm extractEntry tests/test-events.js
+457 silly gunzTarPerm extractEntry tests/test-exceptions.js
+458 silly gunzTarPerm extractEntry tests/test-headers.js
+459 silly gunzTarPerm extractEntry tests/test-redirect-302.js
+460 silly gunzTarPerm extractEntry tests/test-redirect-303.js
+461 silly gunzTarPerm extractEntry tests/test-redirect-307.js
+462 silly gunzTarPerm extractEntry tests/test-request-methods.js
+463 silly gunzTarPerm extractEntry tests/test-request-protocols.js
+464 silly gunzTarPerm extractEntry tests/testdata.txt
+465 info uninstall reboot@0.0.1
+466 silly gunzTarPerm extractEntry lib/prototype/selector_engine.js
+467 silly gunzTarPerm extractEntry src/nwmatcher-base.js
+468 verbose true,/opt/cgminer/node_modules,/opt/cgminer/node_modules unbuild reboot@0.0.1
+469 info postuninstall reboot@0.0.1
+470 silly gunzTarPerm extractEntry lib/CSSRule.js
+471 silly gunzTarPerm extractEntry lib/CSSStyleDeclaration.js
+472 silly gunzTarPerm extractEntry lib/CollectingHandler.js
+473 silly gunzTarPerm extractEntry lib/FeedHandler.js
+474 silly gunzTarPerm extractEntry lib/css3-properties/borderImageOutset.js
+475 silly gunzTarPerm extractEntry lib/css3-properties/borderImageRepeat.js
+476 silly gunzTarPerm extractEntry src/contextify.cc
+477 silly gunzTarPerm extractEntry test/contextify.js
+478 silly gunzTarPerm extractEntry wscript
+479 silly gunzTarPerm extractEntry src/nwmatcher-noqsa.js
+480 silly gunzTarPerm extractEntry lib/CSSStyleRule.js
+481 silly gunzTarPerm extractEntry lib/Parser.js
+482 silly gunzTarPerm extractEntry lib/css3-properties/borderImageSlice.js
+483 silly gunzTarPerm extractEntry lib/css3-properties/borderImageSource.js
+484 silly gunzTarPerm extractEntry lib/CSSKeyframesRule.js
+485 silly gunzTarPerm extractEntry lib/CSSValue.js
+486 silly gunzTarPerm extractEntry lib/ProxyHandler.js
+487 silly gunzTarPerm extractEntry lib/Stream.js
+488 silly gunzTarPerm extractEntry src/nwmatcher.js
+489 silly gunzTarPerm extractEntry src/modules/nwmatcher-cache.js
+490 silly gunzTarPerm extractEntry lib/Tokenizer.js
+491 silly gunzTarPerm extractEntry lib/WritableStream.js
+492 silly gunzTarPerm extractEntry request.js
+493 silly gunzTarPerm extractEntry .travis.yml
+494 silly gunzTarPerm extractEntry src/modules/nwmatcher-jquery.js
+495 silly gunzTarPerm extractEntry src/modules/nwmatcher-pseudos.js
+496 silly gunzTarPerm extractEntry lib/CSSValueExpression.js
+497 silly gunzTarPerm extractEntry lib/MatcherList.js
+498 error reboot@0.0.1 install: `node-gyp rebuild`
+498 error Exit status 1
+499 error Failed at the reboot@0.0.1 install script.
+499 error This is most likely a problem with the reboot package,
+499 error not with npm itself.
+499 error Tell the author that this fails on your system:
+499 error     node-gyp rebuild
+499 error You can get their info via:
+499 error     npm owner ls reboot
+499 error There is likely additional logging output above.
+500 error System Linux 3.11.0-18-generic
+501 error command "/usr/bin/node" "/usr/bin/npm" "install"
+502 error cwd /opt/cgminer
+503 error node -v v0.10.26
+504 error npm -v 1.4.3
+505 error code ELIFECYCLE
+506 verbose exit [ 1, true ]

@@ -59,7 +59,7 @@ config = _.defaults(config, {
     "minerName": "my miner",              // identifying string used in emails and logs
     "processName": "cgminer",             // name cgmon uses to find process ID
     "startWaitSeconds": 5,                // time to wait for miner process to start before continuing
-    "cmd": "/opt/start_screen/start_screen10.sh",           // process cgmon spawns to start cgminer
+    "cmd": "/opt/cgminer/start_screen/start_screen10.sh",           // process cgmon spawns to start cgminer
     "args": [],                           // process arguments if any
     "apiHost": "127.0.0.1",               // miner API host
     "apiPort": "4310",                    // miner API port
