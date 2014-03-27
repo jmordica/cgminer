@@ -6,4 +6,4 @@ else
    DELAY=$1
 fi
 sleep $DELAY
-screen -dmS cgminer08 /opt/cgminer/cgminer --config /opt/cgminer/cgminer_conf/cgminer08.conf
+screen -dmS cgminer08 /opt/cgminer/cgminer08 --config /opt/cgminer/cgminer_conf/cgminer08.conf

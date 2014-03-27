@@ -57,7 +57,7 @@ var logReadStream;
 // merge defaults & config (config takes priority)
 config = _.defaults(config, {
     "minerName": "my miner",              // identifying string used in emails and logs
-    "processName": "cgminer",             // name cgmon uses to find process ID
+    "processName": "cgminer05",             // name cgmon uses to find process ID
     "startWaitSeconds": 5,                // time to wait for miner process to start before continuing
     "cmd": "/opt/cgminer/start_screen/start_screen05.sh",           // process cgmon spawns to start cgminer
     "args": [],                           // process arguments if any
