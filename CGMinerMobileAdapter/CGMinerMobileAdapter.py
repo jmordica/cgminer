@@ -54,10 +54,10 @@ while 1:
 #	settingsContent = open(settingsPath).readlines()
 
 	emailAddy = 'mineralerts@gawlabs.com'
-	applicationKey = YsMi-PiZk-pnP9
-	machineName = GM00
+	applicationKey = 'YsMi-PiZk-pnP9'
+	machineName = 'GM00'
 
-	f.close()
+#	f.close()
 
 	apiKey = 'yhErhKxFMCmEkf'	
 	reqURL = 'https://mobileminer.azurewebsites.net/api/MiningStatisticsInput?emailAddress='+emailAddy+'&applicationKey='+applicationKey+'&machineName='+machineName+'&apiKey='+apiKey
