@@ -30,7 +30,7 @@ def stop_mining():
         os.system("mine stop")
 
 def restart_mining():
-        os.system("mine restart")
+        os.system("screen -S cgminer04 -X quit")
 
 actions = {
 	"STOP" : stop_mining,
